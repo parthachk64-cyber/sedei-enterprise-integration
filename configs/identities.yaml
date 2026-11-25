@@ -1,0 +1,10 @@
+# DEMO IDENTITIES. Fictitious fixtures for the local test issuer (sedei.identity.TestIssuer).
+# Not a real identity provider. Only identities and services listed here may be revoked/isolated.
+issuer: sedei-test-issuer
+identities:
+  - {subject: svc-07, tenant: tenant-a, kind: service, privilege: standard, scopes: ["orders:create"]}
+  - {subject: svc-07, tenant: tenant-b, kind: service, privilege: standard, scopes: ["orders:create"]}
+  - {subject: svc-12, tenant: tenant-a, kind: service, privilege: elevated, scopes: ["orders:create", "orders:admin"]}
+  - {subject: user-03, tenant: tenant-a, kind: user, privilege: standard, scopes: ["orders:create"]}
+  - {subject: user-03, tenant: tenant-b, kind: user, privilege: standard, scopes: ["orders:read"]}
+fixture_services: [inventory-svc, dispatch-svc, billing-svc, admin-svc, identity-svc]

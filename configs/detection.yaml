@@ -1,0 +1,34 @@
+# Origin: COMPANION DESIGN CHOICE. Not paper-specified.
+feature_version: fv1
+window_s: 300
+late_after_s: 30
+rules:                      # rule_id: [severity, description]
+  R1_REPEATED_DENIALS: {min_denies: 3, severity: 0.50}
+  R2_SCOPE_PROBING: {min_denies: 2, min_distinct_routes: 2, severity: 0.60}
+  R3_INCONSISTENT_REPLAY: {min_security_dup: 1, severity: 0.80}
+  R4_UNEXPECTED_SERVICE_INTERACTION: {min_unexpected_edges: 1, severity: 0.70}
+  R5_CROSS_TENANT_ATTEMPT: {min_tenant_mismatch: 1, severity: 0.90}
+anomaly:
+  n_estimators: 200
+  max_samples: 256
+  seed: 42
+risk:
+  version: risk-1.0.0
+  w_rule: 0.55
+  w_anomaly: 0.30
+  w_identity: 0.15
+  identity_privilege: {standard: 0.0, elevated: 1.0}
+  anomaly_floor_percentile: 50      # baseline score at/below this maps to 0
+  anomaly_ceiling_percentile: 99.5  # baseline score at/above this maps to 1
+response:
+  policy_version: resp-1.0.0
+  tier_count: 5                     # tiers evenly spaced between alert threshold and 1.0
+  incident_window_s: 600
+  durations_s:                      # bounded durations; credential_revocation and service_isolation
+    auth_challenge: 900             # have NO auto-expiry and require explicit recover()
+    rate_limit: 900
+    event_quarantine: 3600
+    access_block: 1800
+splits: {train: 0.6, val: 0.2, test: 0.2}
+holdout_family: lateral_movement
+alert_match_window_s: 300

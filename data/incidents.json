@@ -1,0 +1,2457 @@
+[
+ {
+  "episode_id": "E00007",
+  "evidence_record_ids": [
+   "R000040",
+   "R000041"
+  ],
+  "family": "message_integrity",
+  "first_evidence_event_time": 1790594260.632,
+  "first_evidence_receipt": 1790594261.005,
+  "incident_id": "INC0001",
+  "last_evidence_receipt": 1790594304.981,
+  "principal": "svc-19",
+  "scenario": "replay_injection",
+  "stealth": true,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00018",
+  "evidence_record_ids": [
+   "R000147",
+   "R000148"
+  ],
+  "family": "lateral_movement",
+  "first_evidence_event_time": 1790073581.522,
+  "first_evidence_receipt": 1790073581.881,
+  "incident_id": "INC0002",
+  "last_evidence_receipt": 1790073605.564,
+  "principal": "svc-07",
+  "scenario": "lateral_movement",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00023",
+  "evidence_record_ids": [
+   "R000176",
+   "R000177"
+  ],
+  "family": "lateral_movement",
+  "first_evidence_event_time": 1790963016.223,
+  "first_evidence_receipt": 1790963016.456,
+  "incident_id": "INC0003",
+  "last_evidence_receipt": 1790963030.689,
+  "principal": "svc-17",
+  "scenario": "lateral_movement",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00029",
+  "evidence_record_ids": [
+   "R000212",
+   "R000213",
+   "R000214",
+   "R000215",
+   "R000216",
+   "R000217",
+   "R000218"
+  ],
+  "family": "access_misuse",
+  "first_evidence_event_time": 1790566091.366,
+  "first_evidence_receipt": 1790566091.786,
+  "incident_id": "INC0004",
+  "last_evidence_receipt": 1790566198.243,
+  "principal": "svc-22",
+  "scenario": "scope_probe",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00031",
+  "evidence_record_ids": [
+   "R000223",
+   "R000224",
+   "R000225"
+  ],
+  "family": "message_integrity",
+  "first_evidence_event_time": 1790043307.64,
+  "first_evidence_receipt": 1790043307.859,
+  "incident_id": "INC0005",
+  "last_evidence_receipt": 1790043402.967,
+  "principal": "user-14",
+  "scenario": "replay_injection",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00032",
+  "evidence_record_ids": [
+   "R000226",
+   "R000227",
+   "R000230",
+   "R000231",
+   "R000232"
+  ],
+  "family": "multi_stage",
+  "first_evidence_event_time": 1790351514.028,
+  "first_evidence_receipt": 1790351514.456,
+  "incident_id": "INC0006",
+  "last_evidence_receipt": 1790351608.3,
+  "principal": "user-01",
+  "scenario": "credential_misuse_chain",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00036",
+  "evidence_record_ids": [
+   "R000253",
+   "R000254",
+   "R000255",
+   "R000256",
+   "R000257",
+   "R000258",
+   "R000259",
+   "R000260",
+   "R000261"
+  ],
+  "family": "access_misuse",
+  "first_evidence_event_time": 1790731823.918,
+  "first_evidence_receipt": 1790731824.28,
+  "incident_id": "INC0007",
+  "last_evidence_receipt": 1790731948.143,
+  "principal": "svc-02",
+  "scenario": "scope_probe",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00049",
+  "evidence_record_ids": [
+   "R000336",
+   "R000337"
+  ],
+  "family": "access_misuse",
+  "first_evidence_event_time": 1790685754.021,
+  "first_evidence_receipt": 1790685754.078,
+  "incident_id": "INC0008",
+  "last_evidence_receipt": 1790685774.347,
+  "principal": "svc-23",
+  "scenario": "scope_probe",
+  "stealth": true,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00051",
+  "evidence_record_ids": [
+   "R000344",
+   "R000345",
+   "R000346",
+   "R000349",
+   "R000350"
+  ],
+  "family": "multi_stage",
+  "first_evidence_event_time": 1790476743.571,
+  "first_evidence_receipt": 1790476743.795,
+  "incident_id": "INC0009",
+  "last_evidence_receipt": 1790476849.908,
+  "principal": "user-13",
+  "scenario": "credential_misuse_chain",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00059",
+  "evidence_record_ids": [
+   "R000433",
+   "R000434"
+  ],
+  "family": "message_integrity",
+  "first_evidence_event_time": 1790585225.709,
+  "first_evidence_receipt": 1790585226.159,
+  "incident_id": "INC0010",
+  "last_evidence_receipt": 1790585245.615,
+  "principal": "svc-09",
+  "scenario": "replay_injection",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00064",
+  "evidence_record_ids": [
+   "R000461",
+   "R000462",
+   "R000463"
+  ],
+  "family": "message_integrity",
+  "first_evidence_event_time": 1791183830.084,
+  "first_evidence_receipt": 1791183830.25,
+  "incident_id": "INC0011",
+  "last_evidence_receipt": 1791183955.918,
+  "principal": "user-13",
+  "scenario": "replay_injection",
+  "stealth": true,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00069",
+  "evidence_record_ids": [
+   "R000487"
+  ],
+  "family": "message_integrity",
+  "first_evidence_event_time": 1790363909.845,
+  "first_evidence_receipt": 1790363910.231,
+  "incident_id": "INC0012",
+  "last_evidence_receipt": 1790363910.231,
+  "principal": "svc-06",
+  "scenario": "replay_injection",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00081",
+  "evidence_record_ids": [
+   "R000589",
+   "R000590",
+   "R000591",
+   "R000592",
+   "R000593",
+   "R000594",
+   "R000595",
+   "R000596"
+  ],
+  "family": "access_misuse",
+  "first_evidence_event_time": 1790494051.442,
+  "first_evidence_receipt": 1790494051.876,
+  "incident_id": "INC0013",
+  "last_evidence_receipt": 1790494175.605,
+  "principal": "svc-19",
+  "scenario": "scope_probe",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00084",
+  "evidence_record_ids": [
+   "R000609",
+   "R000610",
+   "R000611",
+   "R000612",
+   "R000613",
+   "R000614",
+   "R000615",
+   "R000616"
+  ],
+  "family": "access_misuse",
+  "first_evidence_event_time": 1790382906.406,
+  "first_evidence_receipt": 1790382906.669,
+  "incident_id": "INC0014",
+  "last_evidence_receipt": 1790383011.994,
+  "principal": "svc-03",
+  "scenario": "scope_probe",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00085",
+  "evidence_record_ids": [
+   "R000618",
+   "R000619",
+   "R000620"
+  ],
+  "family": "message_integrity",
+  "first_evidence_event_time": 1791162269.496,
+  "first_evidence_receipt": 1791162269.673,
+  "incident_id": "INC0015",
+  "last_evidence_receipt": 1791162323.714,
+  "principal": "svc-06",
+  "scenario": "replay_injection",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00086",
+  "evidence_record_ids": [
+   "R000621",
+   "R000622",
+   "R000623",
+   "R000626",
+   "R000627"
+  ],
+  "family": "multi_stage",
+  "first_evidence_event_time": 1791148853.253,
+  "first_evidence_receipt": 1791148853.381,
+  "incident_id": "INC0016",
+  "last_evidence_receipt": 1791148959.354,
+  "principal": "user-08",
+  "scenario": "credential_misuse_chain",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00090",
+  "evidence_record_ids": [
+   "R000709"
+  ],
+  "family": "tenant_boundary",
+  "first_evidence_event_time": 1790545765.105,
+  "first_evidence_receipt": 1790545765.488,
+  "incident_id": "INC0017",
+  "last_evidence_receipt": 1790545765.488,
+  "principal": "svc-11",
+  "scenario": "cross_tenant_attempt",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00100",
+  "evidence_record_ids": [
+   "R000936",
+   "R000937",
+   "R000938"
+  ],
+  "family": "lateral_movement",
+  "first_evidence_event_time": 1790238891.131,
+  "first_evidence_receipt": 1790238891.264,
+  "incident_id": "INC0018",
+  "last_evidence_receipt": 1790238922.397,
+  "principal": "user-02",
+  "scenario": "lateral_movement",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00103",
+  "evidence_record_ids": [
+   "R000952",
+   "R000953"
+  ],
+  "family": "message_integrity",
+  "first_evidence_event_time": 1790318123.948,
+  "first_evidence_receipt": 1790318124.149,
+  "incident_id": "INC0019",
+  "last_evidence_receipt": 1790318133.722,
+  "principal": "svc-02",
+  "scenario": "replay_injection",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00110",
+  "evidence_record_ids": [
+   "R000991",
+   "R000992"
+  ],
+  "family": "lateral_movement",
+  "first_evidence_event_time": 1790538565.547,
+  "first_evidence_receipt": 1790538565.879,
+  "incident_id": "INC0020",
+  "last_evidence_receipt": 1790538587.653,
+  "principal": "svc-23",
+  "scenario": "lateral_movement",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00115",
+  "evidence_record_ids": [
+   "R001017",
+   "R001020"
+  ],
+  "family": "multi_stage",
+  "first_evidence_event_time": 1790012625.387,
+  "first_evidence_receipt": 1790012625.597,
+  "incident_id": "INC0021",
+  "last_evidence_receipt": 1790012657.62,
+  "principal": "svc-03",
+  "scenario": "credential_misuse_chain",
+  "stealth": true,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00118",
+  "evidence_record_ids": [
+   "R001033",
+   "R001034",
+   "R001035",
+   "R001036",
+   "R001037",
+   "R001038",
+   "R001039"
+  ],
+  "family": "access_misuse",
+  "first_evidence_event_time": 1790019387.38,
+  "first_evidence_receipt": 1790019387.714,
+  "incident_id": "INC0022",
+  "last_evidence_receipt": 1790019447.685,
+  "principal": "svc-02",
+  "scenario": "scope_probe",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00125",
+  "evidence_record_ids": [
+   "R001076",
+   "R001077",
+   "R001080",
+   "R001081"
+  ],
+  "family": "multi_stage",
+  "first_evidence_event_time": 1790783920.094,
+  "first_evidence_receipt": 1790783920.489,
+  "incident_id": "INC0023",
+  "last_evidence_receipt": 1790784014.234,
+  "principal": "svc-06",
+  "scenario": "credential_misuse_chain",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00130",
+  "evidence_record_ids": [
+   "R001107",
+   "R001108",
+   "R001109",
+   "R001110",
+   "R001111",
+   "R001112",
+   "R001113",
+   "R001114",
+   "R001115"
+  ],
+  "family": "access_misuse",
+  "first_evidence_event_time": 1790326025.075,
+  "first_evidence_receipt": 1790326025.46,
+  "incident_id": "INC0024",
+  "last_evidence_receipt": 1790326163.925,
+  "principal": "user-03",
+  "scenario": "scope_probe",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00132",
+  "evidence_record_ids": [
+   "R001122",
+   "R001123",
+   "R001124"
+  ],
+  "family": "tenant_boundary",
+  "first_evidence_event_time": 1790926554.694,
+  "first_evidence_receipt": 1790926554.928,
+  "incident_id": "INC0025",
+  "last_evidence_receipt": 1790926584.979,
+  "principal": "user-09",
+  "scenario": "cross_tenant_attempt",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00133",
+  "evidence_record_ids": [
+   "R001125",
+   "R001126",
+   "R001127"
+  ],
+  "family": "tenant_boundary",
+  "first_evidence_event_time": 1790626948.761,
+  "first_evidence_receipt": 1790626949.259,
+  "incident_id": "INC0026",
+  "last_evidence_receipt": 1790626979.192,
+  "principal": "user-10",
+  "scenario": "cross_tenant_attempt",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00136",
+  "evidence_record_ids": [
+   "R001224",
+   "R001225",
+   "R001226"
+  ],
+  "family": "tenant_boundary",
+  "first_evidence_event_time": 1790040552.857,
+  "first_evidence_receipt": 1790040553.276,
+  "incident_id": "INC0027",
+  "last_evidence_receipt": 1790040582.978,
+  "principal": "user-04",
+  "scenario": "cross_tenant_attempt",
+  "stealth": true,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00145",
+  "evidence_record_ids": [
+   "R001277",
+   "R001278"
+  ],
+  "family": "access_misuse",
+  "first_evidence_event_time": 1790366251.468,
+  "first_evidence_receipt": 1790366251.836,
+  "incident_id": "INC0028",
+  "last_evidence_receipt": 1790366271.695,
+  "principal": "user-16",
+  "scenario": "scope_probe",
+  "stealth": true,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00149",
+  "evidence_record_ids": [
+   "R001298",
+   "R001299",
+   "R001300",
+   "R001301"
+  ],
+  "family": "lateral_movement",
+  "first_evidence_event_time": 1790778437.218,
+  "first_evidence_receipt": 1790778437.453,
+  "incident_id": "INC0029",
+  "last_evidence_receipt": 1790778485.582,
+  "principal": "svc-19",
+  "scenario": "lateral_movement",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00150",
+  "evidence_record_ids": [
+   "R001303",
+   "R001304",
+   "R001305"
+  ],
+  "family": "message_integrity",
+  "first_evidence_event_time": 1790409216.843,
+  "first_evidence_receipt": 1790409217.227,
+  "incident_id": "INC0030",
+  "last_evidence_receipt": 1790409243.307,
+  "principal": "user-05",
+  "scenario": "replay_injection",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00152",
+  "evidence_record_ids": [
+   "R001312",
+   "R001315"
+  ],
+  "family": "multi_stage",
+  "first_evidence_event_time": 1791059962.787,
+  "first_evidence_receipt": 1791059962.851,
+  "incident_id": "INC0031",
+  "last_evidence_receipt": 1791059994.953,
+  "principal": "svc-22",
+  "scenario": "credential_misuse_chain",
+  "stealth": true,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00156",
+  "evidence_record_ids": [
+   "R001337",
+   "R001338"
+  ],
+  "family": "message_integrity",
+  "first_evidence_event_time": 1790936333.346,
+  "first_evidence_receipt": 1790936333.603,
+  "incident_id": "INC0032",
+  "last_evidence_receipt": 1790936390.021,
+  "principal": "svc-05",
+  "scenario": "replay_injection",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00158",
+  "evidence_record_ids": [
+   "R001345",
+   "R001346",
+   "R001347",
+   "R001350",
+   "R001351",
+   "R001352"
+  ],
+  "family": "multi_stage",
+  "first_evidence_event_time": 1790152212.878,
+  "first_evidence_receipt": 1790152213.245,
+  "incident_id": "INC0033",
+  "last_evidence_receipt": 1790152319.067,
+  "principal": "svc-09",
+  "scenario": "credential_misuse_chain",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00165",
+  "evidence_record_ids": [
+   "R001511",
+   "R001512",
+   "R001513"
+  ],
+  "family": "message_integrity",
+  "first_evidence_event_time": 1790291452.779,
+  "first_evidence_receipt": 1790291453.035,
+  "incident_id": "INC0034",
+  "last_evidence_receipt": 1790291536.704,
+  "principal": "svc-03",
+  "scenario": "replay_injection",
+  "stealth": true,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00175",
+  "evidence_record_ids": [
+   "R001572",
+   "R001573",
+   "R001574"
+  ],
+  "family": "tenant_boundary",
+  "first_evidence_event_time": 1790406050.854,
+  "first_evidence_receipt": 1790406051.347,
+  "incident_id": "INC0035",
+  "last_evidence_receipt": 1790406081.063,
+  "principal": "svc-16",
+  "scenario": "cross_tenant_attempt",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00187",
+  "evidence_record_ids": [
+   "R001643"
+  ],
+  "family": "message_integrity",
+  "first_evidence_event_time": 1790023673.361,
+  "first_evidence_receipt": 1790023673.517,
+  "incident_id": "INC0036",
+  "last_evidence_receipt": 1790023673.517,
+  "principal": "user-06",
+  "scenario": "replay_injection",
+  "stealth": true,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00189",
+  "evidence_record_ids": [
+   "R001650",
+   "R001651"
+  ],
+  "family": "access_misuse",
+  "first_evidence_event_time": 1790877304.057,
+  "first_evidence_receipt": 1790877304.256,
+  "incident_id": "INC0037",
+  "last_evidence_receipt": 1790877324.413,
+  "principal": "user-08",
+  "scenario": "scope_probe",
+  "stealth": true,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00193",
+  "evidence_record_ids": [
+   "R001670",
+   "R001671"
+  ],
+  "family": "access_misuse",
+  "first_evidence_event_time": 1790411285.057,
+  "first_evidence_receipt": 1790411285.21,
+  "incident_id": "INC0038",
+  "last_evidence_receipt": 1790411305.112,
+  "principal": "svc-22",
+  "scenario": "scope_probe",
+  "stealth": true,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00201",
+  "evidence_record_ids": [
+   "R001718",
+   "R001719",
+   "R001720",
+   "R001721"
+  ],
+  "family": "lateral_movement",
+  "first_evidence_event_time": 1790782758.031,
+  "first_evidence_receipt": 1790782758.293,
+  "incident_id": "INC0039",
+  "last_evidence_receipt": 1790782831.107,
+  "principal": "svc-03",
+  "scenario": "lateral_movement",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00212",
+  "evidence_record_ids": [
+   "R001839",
+   "R001840",
+   "R001843",
+   "R001844"
+  ],
+  "family": "multi_stage",
+  "first_evidence_event_time": 1790235679.663,
+  "first_evidence_receipt": 1790235679.946,
+  "incident_id": "INC0040",
+  "last_evidence_receipt": 1790235773.753,
+  "principal": "user-10",
+  "scenario": "credential_misuse_chain",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00215",
+  "evidence_record_ids": [
+   "R001858",
+   "R001859",
+   "R001860",
+   "R001861",
+   "R001862",
+   "R001863",
+   "R001864",
+   "R001865",
+   "R001866"
+  ],
+  "family": "access_misuse",
+  "first_evidence_event_time": 1790988441.215,
+  "first_evidence_receipt": 1790988441.431,
+  "incident_id": "INC0041",
+  "last_evidence_receipt": 1790988574.269,
+  "principal": "svc-07",
+  "scenario": "scope_probe",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00221",
+  "evidence_record_ids": [
+   "R001898",
+   "R001899",
+   "R001900"
+  ],
+  "family": "lateral_movement",
+  "first_evidence_event_time": 1790704088.719,
+  "first_evidence_receipt": 1790704089.082,
+  "incident_id": "INC0042",
+  "last_evidence_receipt": 1790704136.616,
+  "principal": "user-03",
+  "scenario": "lateral_movement",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00222",
+  "evidence_record_ids": [
+   "R001901",
+   "R001902",
+   "R001903",
+   "R001904",
+   "R001905",
+   "R001906",
+   "R001907"
+  ],
+  "family": "access_misuse",
+  "first_evidence_event_time": 1790300960.216,
+  "first_evidence_receipt": 1790300960.574,
+  "incident_id": "INC0043",
+  "last_evidence_receipt": 1790301050.576,
+  "principal": "svc-23",
+  "scenario": "scope_probe",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00232",
+  "evidence_record_ids": [
+   "R002023"
+  ],
+  "family": "tenant_boundary",
+  "first_evidence_event_time": 1791069969.282,
+  "first_evidence_receipt": 1791069969.695,
+  "incident_id": "INC0044",
+  "last_evidence_receipt": 1791069969.695,
+  "principal": "svc-18",
+  "scenario": "cross_tenant_attempt",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00235",
+  "evidence_record_ids": [
+   "R002037"
+  ],
+  "family": "lateral_movement",
+  "first_evidence_event_time": 1790395872.273,
+  "first_evidence_receipt": 1790395872.633,
+  "incident_id": "INC0045",
+  "last_evidence_receipt": 1790395872.633,
+  "principal": "user-11",
+  "scenario": "lateral_movement",
+  "stealth": true,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00236",
+  "evidence_record_ids": [
+   "R002039",
+   "R002040"
+  ],
+  "family": "lateral_movement",
+  "first_evidence_event_time": 1790175851.39,
+  "first_evidence_receipt": 1790175851.809,
+  "incident_id": "INC0046",
+  "last_evidence_receipt": 1790175866.014,
+  "principal": "svc-12",
+  "scenario": "lateral_movement",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00238",
+  "evidence_record_ids": [
+   "R002048",
+   "R002049",
+   "R002050"
+  ],
+  "family": "lateral_movement",
+  "first_evidence_event_time": 1790445584.967,
+  "first_evidence_receipt": 1790445585.297,
+  "incident_id": "INC0047",
+  "last_evidence_receipt": 1790445627.491,
+  "principal": "user-09",
+  "scenario": "lateral_movement",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00242",
+  "evidence_record_ids": [
+   "R002071",
+   "R002072"
+  ],
+  "family": "lateral_movement",
+  "first_evidence_event_time": 1790466122.909,
+  "first_evidence_receipt": 1790466123.301,
+  "incident_id": "INC0048",
+  "last_evidence_receipt": 1790466146.766,
+  "principal": "user-02",
+  "scenario": "lateral_movement",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00251",
+  "evidence_record_ids": [
+   "R002123",
+   "R002124",
+   "R002127",
+   "R002128"
+  ],
+  "family": "multi_stage",
+  "first_evidence_event_time": 1790498591.54,
+  "first_evidence_receipt": 1790498591.939,
+  "incident_id": "INC0049",
+  "last_evidence_receipt": 1790498686.012,
+  "principal": "user-04",
+  "scenario": "credential_misuse_chain",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00254",
+  "evidence_record_ids": [
+   "R002142",
+   "R002143"
+  ],
+  "family": "message_integrity",
+  "first_evidence_event_time": 1790083976.844,
+  "first_evidence_receipt": 1790083977.3,
+  "incident_id": "INC0050",
+  "last_evidence_receipt": 1790083981.099,
+  "principal": "user-08",
+  "scenario": "replay_injection",
+  "stealth": true,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00255",
+  "evidence_record_ids": [
+   "R002145"
+  ],
+  "family": "message_integrity",
+  "first_evidence_event_time": 1790129206.863,
+  "first_evidence_receipt": 1790129207.09,
+  "incident_id": "INC0051",
+  "last_evidence_receipt": 1790129207.09,
+  "principal": "svc-17",
+  "scenario": "replay_injection",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00275",
+  "evidence_record_ids": [
+   "R002263",
+   "R002264"
+  ],
+  "family": "access_misuse",
+  "first_evidence_event_time": 1791012945.086,
+  "first_evidence_receipt": 1791012945.546,
+  "incident_id": "INC0052",
+  "last_evidence_receipt": 1791012965.437,
+  "principal": "user-06",
+  "scenario": "scope_probe",
+  "stealth": true,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00284",
+  "evidence_record_ids": [
+   "R002382",
+   "R002383"
+  ],
+  "family": "tenant_boundary",
+  "first_evidence_event_time": 1791081511.86,
+  "first_evidence_receipt": 1791081512.072,
+  "incident_id": "INC0053",
+  "last_evidence_receipt": 1791081527.026,
+  "principal": "user-15",
+  "scenario": "cross_tenant_attempt",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00288",
+  "evidence_record_ids": [
+   "R002403",
+   "R002404"
+  ],
+  "family": "access_misuse",
+  "first_evidence_event_time": 1791170911.083,
+  "first_evidence_receipt": 1791170911.467,
+  "incident_id": "INC0054",
+  "last_evidence_receipt": 1791170931.523,
+  "principal": "svc-14",
+  "scenario": "scope_probe",
+  "stealth": true,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00305",
+  "evidence_record_ids": [
+   "R002550",
+   "R002551",
+   "R002552",
+   "R002553"
+  ],
+  "family": "access_misuse",
+  "first_evidence_event_time": 1790310951.993,
+  "first_evidence_receipt": 1790310952.098,
+  "incident_id": "INC0055",
+  "last_evidence_receipt": 1790311004.488,
+  "principal": "svc-22",
+  "scenario": "scope_probe",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00310",
+  "evidence_record_ids": [
+   "R002579"
+  ],
+  "family": "lateral_movement",
+  "first_evidence_event_time": 1790803933.371,
+  "first_evidence_receipt": 1790803933.433,
+  "incident_id": "INC0056",
+  "last_evidence_receipt": 1790803933.433,
+  "principal": "svc-22",
+  "scenario": "lateral_movement",
+  "stealth": true,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00313",
+  "evidence_record_ids": [
+   "R002592",
+   "R002593",
+   "R002594"
+  ],
+  "family": "tenant_boundary",
+  "first_evidence_event_time": 1790475102.145,
+  "first_evidence_receipt": 1790475102.624,
+  "incident_id": "INC0057",
+  "last_evidence_receipt": 1790475132.478,
+  "principal": "svc-05",
+  "scenario": "cross_tenant_attempt",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00336",
+  "evidence_record_ids": [
+   "R002805",
+   "R002806"
+  ],
+  "family": "lateral_movement",
+  "first_evidence_event_time": 1790195936.707,
+  "first_evidence_receipt": 1790195936.904,
+  "incident_id": "INC0058",
+  "last_evidence_receipt": 1790195959.663,
+  "principal": "svc-01",
+  "scenario": "lateral_movement",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00337",
+  "evidence_record_ids": [
+   "R002808"
+  ],
+  "family": "message_integrity",
+  "first_evidence_event_time": 1790594708.787,
+  "first_evidence_receipt": 1790594709.078,
+  "incident_id": "INC0059",
+  "last_evidence_receipt": 1790594709.078,
+  "principal": "svc-15",
+  "scenario": "replay_injection",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00340",
+  "evidence_record_ids": [
+   "R002821",
+   "R002822",
+   "R002823",
+   "R002824",
+   "R002825"
+  ],
+  "family": "access_misuse",
+  "first_evidence_event_time": 1790750347.738,
+  "first_evidence_receipt": 1790750347.996,
+  "incident_id": "INC0060",
+  "last_evidence_receipt": 1790750400.872,
+  "principal": "svc-21",
+  "scenario": "scope_probe",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00343",
+  "evidence_record_ids": [
+   "R002838",
+   "R002839",
+   "R002840",
+   "R002843",
+   "R002844"
+  ],
+  "family": "multi_stage",
+  "first_evidence_event_time": 1790368134.066,
+  "first_evidence_receipt": 1790368134.147,
+  "incident_id": "INC0061",
+  "last_evidence_receipt": 1790368240.285,
+  "principal": "svc-21",
+  "scenario": "credential_misuse_chain",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00346",
+  "evidence_record_ids": [
+   "R002858",
+   "R002859"
+  ],
+  "family": "lateral_movement",
+  "first_evidence_event_time": 1790927868.986,
+  "first_evidence_receipt": 1790927869.412,
+  "incident_id": "INC0062",
+  "last_evidence_receipt": 1790927885.298,
+  "principal": "svc-22",
+  "scenario": "lateral_movement",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00348",
+  "evidence_record_ids": [
+   "R002867"
+  ],
+  "family": "lateral_movement",
+  "first_evidence_event_time": 1790107079.953,
+  "first_evidence_receipt": 1790107080.112,
+  "incident_id": "INC0063",
+  "last_evidence_receipt": 1790107080.112,
+  "principal": "svc-22",
+  "scenario": "lateral_movement",
+  "stealth": true,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00353",
+  "evidence_record_ids": [
+   "R002894"
+  ],
+  "family": "lateral_movement",
+  "first_evidence_event_time": 1790502635.637,
+  "first_evidence_receipt": 1790502636.096,
+  "incident_id": "INC0064",
+  "last_evidence_receipt": 1790502636.096,
+  "principal": "svc-22",
+  "scenario": "lateral_movement",
+  "stealth": true,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00357",
+  "evidence_record_ids": [
+   "R002950",
+   "R002951",
+   "R002952",
+   "R002953",
+   "R002956",
+   "R002957"
+  ],
+  "family": "multi_stage",
+  "first_evidence_event_time": 1790720679.765,
+  "first_evidence_receipt": 1790720680.208,
+  "incident_id": "INC0065",
+  "last_evidence_receipt": 1790720797.879,
+  "principal": "svc-12",
+  "scenario": "credential_misuse_chain",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00361",
+  "evidence_record_ids": [
+   "R002976",
+   "R002977"
+  ],
+  "family": "tenant_boundary",
+  "first_evidence_event_time": 1790437130.046,
+  "first_evidence_receipt": 1790437130.259,
+  "incident_id": "INC0066",
+  "last_evidence_receipt": 1790437145.385,
+  "principal": "svc-19",
+  "scenario": "cross_tenant_attempt",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00362",
+  "evidence_record_ids": [
+   "R002979"
+  ],
+  "family": "message_integrity",
+  "first_evidence_event_time": 1790453206.614,
+  "first_evidence_receipt": 1790453206.932,
+  "incident_id": "INC0067",
+  "last_evidence_receipt": 1790453206.932,
+  "principal": "svc-16",
+  "scenario": "replay_injection",
+  "stealth": true,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00369",
+  "evidence_record_ids": [
+   "R003018",
+   "R003019",
+   "R003020",
+   "R003023",
+   "R003024",
+   "R003025"
+  ],
+  "family": "multi_stage",
+  "first_evidence_event_time": 1790755889.756,
+  "first_evidence_receipt": 1790755890.215,
+  "incident_id": "INC0068",
+  "last_evidence_receipt": 1790755995.835,
+  "principal": "svc-11",
+  "scenario": "credential_misuse_chain",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00370",
+  "evidence_record_ids": [
+   "R003027",
+   "R003028"
+  ],
+  "family": "message_integrity",
+  "first_evidence_event_time": 1790853528.469,
+  "first_evidence_receipt": 1790853528.675,
+  "incident_id": "INC0069",
+  "last_evidence_receipt": 1790853550.387,
+  "principal": "svc-06",
+  "scenario": "replay_injection",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00378",
+  "evidence_record_ids": [
+   "R003115",
+   "R003116",
+   "R003117",
+   "R003118"
+  ],
+  "family": "lateral_movement",
+  "first_evidence_event_time": 1791197085.18,
+  "first_evidence_receipt": 1791197085.596,
+  "incident_id": "INC0070",
+  "last_evidence_receipt": 1791197130.447,
+  "principal": "user-08",
+  "scenario": "lateral_movement",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00379",
+  "evidence_record_ids": [
+   "R003120",
+   "R003121"
+  ],
+  "family": "lateral_movement",
+  "first_evidence_event_time": 1790361510.503,
+  "first_evidence_receipt": 1790361510.704,
+  "incident_id": "INC0071",
+  "last_evidence_receipt": 1790361522.198,
+  "principal": "svc-04",
+  "scenario": "lateral_movement",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00384",
+  "evidence_record_ids": [
+   "R003147",
+   "R003148"
+  ],
+  "family": "lateral_movement",
+  "first_evidence_event_time": 1790270215.091,
+  "first_evidence_receipt": 1790270215.193,
+  "incident_id": "INC0072",
+  "last_evidence_receipt": 1790270234.455,
+  "principal": "svc-23",
+  "scenario": "lateral_movement",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00386",
+  "evidence_record_ids": [
+   "R003156",
+   "R003157",
+   "R003158"
+  ],
+  "family": "message_integrity",
+  "first_evidence_event_time": 1790444551.268,
+  "first_evidence_receipt": 1790444551.433,
+  "incident_id": "INC0073",
+  "last_evidence_receipt": 1790444567.711,
+  "principal": "svc-18",
+  "scenario": "replay_injection",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00391",
+  "evidence_record_ids": [
+   "R003183",
+   "R003184",
+   "R003185"
+  ],
+  "family": "tenant_boundary",
+  "first_evidence_event_time": 1790433540.133,
+  "first_evidence_receipt": 1790433540.426,
+  "incident_id": "INC0074",
+  "last_evidence_receipt": 1790433570.284,
+  "principal": "svc-12",
+  "scenario": "cross_tenant_attempt",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00392",
+  "evidence_record_ids": [
+   "R003186",
+   "R003187",
+   "R003188",
+   "R003189",
+   "R003190",
+   "R003191"
+  ],
+  "family": "access_misuse",
+  "first_evidence_event_time": 1790743360.653,
+  "first_evidence_receipt": 1790743361.096,
+  "incident_id": "INC0075",
+  "last_evidence_receipt": 1790743440.639,
+  "principal": "user-09",
+  "scenario": "scope_probe",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00394",
+  "evidence_record_ids": [
+   "R003198",
+   "R003199"
+  ],
+  "family": "access_misuse",
+  "first_evidence_event_time": 1791153000.44,
+  "first_evidence_receipt": 1791153000.808,
+  "incident_id": "INC0076",
+  "last_evidence_receipt": 1791153020.543,
+  "principal": "user-16",
+  "scenario": "scope_probe",
+  "stealth": true,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00406",
+  "evidence_record_ids": [
+   "R003467"
+  ],
+  "family": "tenant_boundary",
+  "first_evidence_event_time": 1790807323.987,
+  "first_evidence_receipt": 1790807324.178,
+  "incident_id": "INC0077",
+  "last_evidence_receipt": 1790807324.178,
+  "principal": "svc-10",
+  "scenario": "cross_tenant_attempt",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00415",
+  "evidence_record_ids": [
+   "R003596",
+   "R003597"
+  ],
+  "family": "message_integrity",
+  "first_evidence_event_time": 1790219512.911,
+  "first_evidence_receipt": 1790219513.367,
+  "incident_id": "INC0078",
+  "last_evidence_receipt": 1790219542.028,
+  "principal": "user-10",
+  "scenario": "replay_injection",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00423",
+  "evidence_record_ids": [
+   "R003714",
+   "R003715"
+  ],
+  "family": "message_integrity",
+  "first_evidence_event_time": 1790120794.522,
+  "first_evidence_receipt": 1790120794.722,
+  "incident_id": "INC0079",
+  "last_evidence_receipt": 1790120844.36,
+  "principal": "user-03",
+  "scenario": "replay_injection",
+  "stealth": true,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00424",
+  "evidence_record_ids": [
+   "R003716",
+   "R003717"
+  ],
+  "family": "access_misuse",
+  "first_evidence_event_time": 1791007933.067,
+  "first_evidence_receipt": 1791007933.19,
+  "incident_id": "INC0080",
+  "last_evidence_receipt": 1791007953.363,
+  "principal": "user-03",
+  "scenario": "scope_probe",
+  "stealth": true,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00431",
+  "evidence_record_ids": [
+   "R003830"
+  ],
+  "family": "lateral_movement",
+  "first_evidence_event_time": 1790163265.804,
+  "first_evidence_receipt": 1790163265.907,
+  "incident_id": "INC0081",
+  "last_evidence_receipt": 1790163265.907,
+  "principal": "user-05",
+  "scenario": "lateral_movement",
+  "stealth": true,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00433",
+  "evidence_record_ids": [
+   "R003838",
+   "R003839"
+  ],
+  "family": "lateral_movement",
+  "first_evidence_event_time": 1791049295.053,
+  "first_evidence_receipt": 1791049295.478,
+  "incident_id": "INC0082",
+  "last_evidence_receipt": 1791049307.601,
+  "principal": "svc-12",
+  "scenario": "lateral_movement",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00434",
+  "evidence_record_ids": [
+   "R003841",
+   "R003842",
+   "R003843"
+  ],
+  "family": "message_integrity",
+  "first_evidence_event_time": 1790504756.892,
+  "first_evidence_receipt": 1790504757.369,
+  "incident_id": "INC0083",
+  "last_evidence_receipt": 1790504833.555,
+  "principal": "user-16",
+  "scenario": "replay_injection",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00435",
+  "evidence_record_ids": [
+   "R003844",
+   "R003845",
+   "R003846",
+   "R003847",
+   "R003848",
+   "R003849",
+   "R003850",
+   "R003851",
+   "R003852"
+  ],
+  "family": "access_misuse",
+  "first_evidence_event_time": 1790086237.618,
+  "first_evidence_receipt": 1790086238.052,
+  "incident_id": "INC0084",
+  "last_evidence_receipt": 1790086329.488,
+  "principal": "user-04",
+  "scenario": "scope_probe",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00438",
+  "evidence_record_ids": [
+   "R003866",
+   "R003867"
+  ],
+  "family": "message_integrity",
+  "first_evidence_event_time": 1790178179.216,
+  "first_evidence_receipt": 1790178179.354,
+  "incident_id": "INC0085",
+  "last_evidence_receipt": 1790178274.069,
+  "principal": "user-06",
+  "scenario": "replay_injection",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00444",
+  "evidence_record_ids": [
+   "R003900"
+  ],
+  "family": "lateral_movement",
+  "first_evidence_event_time": 1790557442.786,
+  "first_evidence_receipt": 1790557442.926,
+  "incident_id": "INC0086",
+  "last_evidence_receipt": 1790557442.926,
+  "principal": "svc-22",
+  "scenario": "lateral_movement",
+  "stealth": true,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00445",
+  "evidence_record_ids": [
+   "R003901",
+   "R003902",
+   "R003903",
+   "R003904",
+   "R003905",
+   "R003906",
+   "R003907"
+  ],
+  "family": "access_misuse",
+  "first_evidence_event_time": 1790593046.142,
+  "first_evidence_receipt": 1790593046.641,
+  "incident_id": "INC0087",
+  "last_evidence_receipt": 1790593140.16,
+  "principal": "user-14",
+  "scenario": "scope_probe",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00450",
+  "evidence_record_ids": [
+   "R003932",
+   "R003933",
+   "R003936",
+   "R003937",
+   "R003938"
+  ],
+  "family": "multi_stage",
+  "first_evidence_event_time": 1790578539.793,
+  "first_evidence_receipt": 1790578540.047,
+  "incident_id": "INC0088",
+  "last_evidence_receipt": 1790578634.188,
+  "principal": "svc-06",
+  "scenario": "credential_misuse_chain",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00453",
+  "evidence_record_ids": [
+   "R003952",
+   "R003955"
+  ],
+  "family": "multi_stage",
+  "first_evidence_event_time": 1791100169.18,
+  "first_evidence_receipt": 1791100169.582,
+  "incident_id": "INC0089",
+  "last_evidence_receipt": 1791100201.467,
+  "principal": "user-04",
+  "scenario": "credential_misuse_chain",
+  "stealth": true,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00463",
+  "evidence_record_ids": [
+   "R004011",
+   "R004012",
+   "R004013",
+   "R004014",
+   "R004015",
+   "R004016"
+  ],
+  "family": "access_misuse",
+  "first_evidence_event_time": 1791089705.391,
+  "first_evidence_receipt": 1791089705.796,
+  "incident_id": "INC0090",
+  "last_evidence_receipt": 1791089801.364,
+  "principal": "user-12",
+  "scenario": "scope_probe",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00472",
+  "evidence_record_ids": [
+   "R004066",
+   "R004067",
+   "R004068",
+   "R004069",
+   "R004072",
+   "R004073",
+   "R004074"
+  ],
+  "family": "multi_stage",
+  "first_evidence_event_time": 1790126081.45,
+  "first_evidence_receipt": 1790126081.609,
+  "incident_id": "INC0091",
+  "last_evidence_receipt": 1790126199.949,
+  "principal": "svc-16",
+  "scenario": "credential_misuse_chain",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00483",
+  "evidence_record_ids": [
+   "R004137",
+   "R004138",
+   "R004139",
+   "R004142",
+   "R004143"
+  ],
+  "family": "multi_stage",
+  "first_evidence_event_time": 1790144412.013,
+  "first_evidence_receipt": 1790144412.229,
+  "incident_id": "INC0092",
+  "last_evidence_receipt": 1790144518.199,
+  "principal": "svc-23",
+  "scenario": "credential_misuse_chain",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00504",
+  "evidence_record_ids": [
+   "R004262",
+   "R004263",
+   "R004264"
+  ],
+  "family": "tenant_boundary",
+  "first_evidence_event_time": 1790104451.286,
+  "first_evidence_receipt": 1790104451.681,
+  "incident_id": "INC0093",
+  "last_evidence_receipt": 1790104481.62,
+  "principal": "svc-17",
+  "scenario": "cross_tenant_attempt",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00508",
+  "evidence_record_ids": [
+   "R004332",
+   "R004333",
+   "R004334",
+   "R004335",
+   "R004338",
+   "R004339",
+   "R004340"
+  ],
+  "family": "multi_stage",
+  "first_evidence_event_time": 1790043355.82,
+  "first_evidence_receipt": 1790043355.915,
+  "incident_id": "INC0094",
+  "last_evidence_receipt": 1790043474.277,
+  "principal": "svc-02",
+  "scenario": "credential_misuse_chain",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00513",
+  "evidence_record_ids": [
+   "R004365",
+   "R004366",
+   "R004367",
+   "R004368"
+  ],
+  "family": "access_misuse",
+  "first_evidence_event_time": 1790254096.285,
+  "first_evidence_receipt": 1790254096.419,
+  "incident_id": "INC0095",
+  "last_evidence_receipt": 1790254132.737,
+  "principal": "svc-09",
+  "scenario": "scope_probe",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00519",
+  "evidence_record_ids": [
+   "R004399",
+   "R004400",
+   "R004401",
+   "R004402",
+   "R004405",
+   "R004406",
+   "R004407"
+  ],
+  "family": "multi_stage",
+  "first_evidence_event_time": 1790993977.118,
+  "first_evidence_receipt": 1790993977.268,
+  "incident_id": "INC0096",
+  "last_evidence_receipt": 1790994095.253,
+  "principal": "user-12",
+  "scenario": "credential_misuse_chain",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00534",
+  "evidence_record_ids": [
+   "R004492"
+  ],
+  "family": "message_integrity",
+  "first_evidence_event_time": 1790373356.128,
+  "first_evidence_receipt": 1790373356.364,
+  "incident_id": "INC0097",
+  "last_evidence_receipt": 1790373356.364,
+  "principal": "user-09",
+  "scenario": "replay_injection",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00538",
+  "evidence_record_ids": [
+   "R004514",
+   "R004515"
+  ],
+  "family": "lateral_movement",
+  "first_evidence_event_time": 1790871456.004,
+  "first_evidence_receipt": 1790871456.275,
+  "incident_id": "INC0098",
+  "last_evidence_receipt": 1790871479.993,
+  "principal": "user-07",
+  "scenario": "lateral_movement",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00546",
+  "evidence_record_ids": [
+   "R004558",
+   "R004559",
+   "R004560",
+   "R004561",
+   "R004564",
+   "R004565"
+  ],
+  "family": "multi_stage",
+  "first_evidence_event_time": 1790727357.739,
+  "first_evidence_receipt": 1790727357.868,
+  "incident_id": "INC0099",
+  "last_evidence_receipt": 1790727476.005,
+  "principal": "svc-05",
+  "scenario": "credential_misuse_chain",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00549",
+  "evidence_record_ids": [
+   "R004580",
+   "R004581",
+   "R004582",
+   "R004583"
+  ],
+  "family": "lateral_movement",
+  "first_evidence_event_time": 1790751533.214,
+  "first_evidence_receipt": 1790751533.356,
+  "incident_id": "INC0100",
+  "last_evidence_receipt": 1790751569.602,
+  "principal": "user-15",
+  "scenario": "lateral_movement",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00552",
+  "evidence_record_ids": [
+   "R004594"
+  ],
+  "family": "message_integrity",
+  "first_evidence_event_time": 1790990882.385,
+  "first_evidence_receipt": 1790990882.715,
+  "incident_id": "INC0101",
+  "last_evidence_receipt": 1790990882.715,
+  "principal": "svc-10",
+  "scenario": "replay_injection",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00553",
+  "evidence_record_ids": [
+   "R004596",
+   "R004597",
+   "R004598"
+  ],
+  "family": "lateral_movement",
+  "first_evidence_event_time": 1790735285.765,
+  "first_evidence_receipt": 1790735286.221,
+  "incident_id": "INC0102",
+  "last_evidence_receipt": 1790735318.646,
+  "principal": "user-12",
+  "scenario": "lateral_movement",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00555",
+  "evidence_record_ids": [
+   "R004606",
+   "R004607",
+   "R004608",
+   "R004611",
+   "R004612"
+  ],
+  "family": "multi_stage",
+  "first_evidence_event_time": 1790685434.236,
+  "first_evidence_receipt": 1790685434.334,
+  "incident_id": "INC0103",
+  "last_evidence_receipt": 1790685540.457,
+  "principal": "svc-09",
+  "scenario": "credential_misuse_chain",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00559",
+  "evidence_record_ids": [
+   "R004632",
+   "R004633",
+   "R004634",
+   "R004635",
+   "R004636",
+   "R004637"
+  ],
+  "family": "access_misuse",
+  "first_evidence_event_time": 1790503698.021,
+  "first_evidence_receipt": 1790503698.353,
+  "incident_id": "INC0104",
+  "last_evidence_receipt": 1790503772.544,
+  "principal": "svc-09",
+  "scenario": "scope_probe",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00562",
+  "evidence_record_ids": [
+   "R004650",
+   "R004651",
+   "R004652",
+   "R004655",
+   "R004656"
+  ],
+  "family": "multi_stage",
+  "first_evidence_event_time": 1790223985.72,
+  "first_evidence_receipt": 1790223985.909,
+  "incident_id": "INC0105",
+  "last_evidence_receipt": 1790224092.178,
+  "principal": "user-04",
+  "scenario": "credential_misuse_chain",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00563",
+  "evidence_record_ids": [
+   "R004657",
+   "R004658",
+   "R004661",
+   "R004662",
+   "R004663"
+  ],
+  "family": "multi_stage",
+  "first_evidence_event_time": 1791139384.217,
+  "first_evidence_receipt": 1791139384.624,
+  "incident_id": "INC0106",
+  "last_evidence_receipt": 1791139478.512,
+  "principal": "svc-04",
+  "scenario": "credential_misuse_chain",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00564",
+  "evidence_record_ids": [
+   "R004664",
+   "R004665",
+   "R004666"
+  ],
+  "family": "tenant_boundary",
+  "first_evidence_event_time": 1791066199.343,
+  "first_evidence_receipt": 1791066199.521,
+  "incident_id": "INC0107",
+  "last_evidence_receipt": 1791066229.618,
+  "principal": "user-05",
+  "scenario": "cross_tenant_attempt",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00572",
+  "evidence_record_ids": [
+   "R004794",
+   "R004795",
+   "R004796",
+   "R004797",
+   "R004798",
+   "R004799"
+  ],
+  "family": "access_misuse",
+  "first_evidence_event_time": 1790073571.109,
+  "first_evidence_receipt": 1790073571.186,
+  "incident_id": "INC0108",
+  "last_evidence_receipt": 1790073647.322,
+  "principal": "user-15",
+  "scenario": "scope_probe",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00577",
+  "evidence_record_ids": [
+   "R004825",
+   "R004826"
+  ],
+  "family": "lateral_movement",
+  "first_evidence_event_time": 1790439738.521,
+  "first_evidence_receipt": 1790439738.836,
+  "incident_id": "INC0109",
+  "last_evidence_receipt": 1790439756.509,
+  "principal": "user-06",
+  "scenario": "lateral_movement",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00580",
+  "evidence_record_ids": [
+   "R004840"
+  ],
+  "family": "message_integrity",
+  "first_evidence_event_time": 1790483909.227,
+  "first_evidence_receipt": 1790483909.479,
+  "incident_id": "INC0110",
+  "last_evidence_receipt": 1790483909.479,
+  "principal": "svc-06",
+  "scenario": "replay_injection",
+  "stealth": true,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00585",
+  "evidence_record_ids": [
+   "R004939",
+   "R004940"
+  ],
+  "family": "lateral_movement",
+  "first_evidence_event_time": 1790044684.052,
+  "first_evidence_receipt": 1790044684.399,
+  "incident_id": "INC0111",
+  "last_evidence_receipt": 1790044703.525,
+  "principal": "svc-05",
+  "scenario": "lateral_movement",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00591",
+  "evidence_record_ids": [
+   "R004972"
+  ],
+  "family": "tenant_boundary",
+  "first_evidence_event_time": 1790859910.514,
+  "first_evidence_receipt": 1790859910.755,
+  "incident_id": "INC0112",
+  "last_evidence_receipt": 1790859910.755,
+  "principal": "svc-03",
+  "scenario": "cross_tenant_attempt",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00594",
+  "evidence_record_ids": [
+   "R004986",
+   "R004987",
+   "R004988",
+   "R004989",
+   "R004992",
+   "R004993"
+  ],
+  "family": "multi_stage",
+  "first_evidence_event_time": 1790617010.555,
+  "first_evidence_receipt": 1790617010.614,
+  "incident_id": "INC0113",
+  "last_evidence_receipt": 1790617128.805,
+  "principal": "svc-10",
+  "scenario": "credential_misuse_chain",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00598",
+  "evidence_record_ids": [
+   "R005013",
+   "R005014",
+   "R005015",
+   "R005016",
+   "R005017",
+   "R005018",
+   "R005019",
+   "R005020",
+   "R005021"
+  ],
+  "family": "access_misuse",
+  "first_evidence_event_time": 1790528854.551,
+  "first_evidence_receipt": 1790528854.981,
+  "incident_id": "INC0114",
+  "last_evidence_receipt": 1790528965.889,
+  "principal": "user-11",
+  "scenario": "scope_probe",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00599",
+  "evidence_record_ids": [
+   "R005022",
+   "R005023"
+  ],
+  "family": "tenant_boundary",
+  "first_evidence_event_time": 1790946547.666,
+  "first_evidence_receipt": 1790946548.001,
+  "incident_id": "INC0115",
+  "last_evidence_receipt": 1790946562.939,
+  "principal": "svc-23",
+  "scenario": "cross_tenant_attempt",
+  "stealth": true,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00600",
+  "evidence_record_ids": [
+   "R005025",
+   "R005026",
+   "R005027",
+   "R005028"
+  ],
+  "family": "lateral_movement",
+  "first_evidence_event_time": 1790033421.781,
+  "first_evidence_receipt": 1790033421.976,
+  "incident_id": "INC0116",
+  "last_evidence_receipt": 1790033471.885,
+  "principal": "user-05",
+  "scenario": "lateral_movement",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00616",
+  "evidence_record_ids": [
+   "R005121",
+   "R005122",
+   "R005123",
+   "R005124",
+   "R005125",
+   "R005126",
+   "R005127",
+   "R005128"
+  ],
+  "family": "access_misuse",
+  "first_evidence_event_time": 1790051624.561,
+  "first_evidence_receipt": 1790051624.889,
+  "incident_id": "INC0117",
+  "last_evidence_receipt": 1790051710.131,
+  "principal": "svc-02",
+  "scenario": "scope_probe",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00617",
+  "evidence_record_ids": [
+   "R005129",
+   "R005130",
+   "R005131",
+   "R005132"
+  ],
+  "family": "access_misuse",
+  "first_evidence_event_time": 1790049267.373,
+  "first_evidence_receipt": 1790049267.53,
+  "incident_id": "INC0118",
+  "last_evidence_receipt": 1790049319.214,
+  "principal": "svc-15",
+  "scenario": "scope_probe",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00620",
+  "evidence_record_ids": [
+   "R005146",
+   "R005147"
+  ],
+  "family": "message_integrity",
+  "first_evidence_event_time": 1790459232.812,
+  "first_evidence_receipt": 1790459233.251,
+  "incident_id": "INC0119",
+  "last_evidence_receipt": 1790459252.054,
+  "principal": "svc-12",
+  "scenario": "replay_injection",
+  "stealth": true,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00626",
+  "evidence_record_ids": [
+   "R005180",
+   "R005181",
+   "R005182",
+   "R005185",
+   "R005186",
+   "R005187"
+  ],
+  "family": "multi_stage",
+  "first_evidence_event_time": 1790379598.929,
+  "first_evidence_receipt": 1790379599.118,
+  "incident_id": "INC0120",
+  "last_evidence_receipt": 1790379705.29,
+  "principal": "user-02",
+  "scenario": "credential_misuse_chain",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00627",
+  "evidence_record_ids": [
+   "R005189",
+   "R005190",
+   "R005191"
+  ],
+  "family": "message_integrity",
+  "first_evidence_event_time": 1791010223.792,
+  "first_evidence_receipt": 1791010223.845,
+  "incident_id": "INC0121",
+  "last_evidence_receipt": 1791010279.3,
+  "principal": "svc-06",
+  "scenario": "replay_injection",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00637",
+  "evidence_record_ids": [
+   "R005328",
+   "R005329",
+   "R005330",
+   "R005331",
+   "R005332",
+   "R005333",
+   "R005334",
+   "R005335"
+  ],
+  "family": "access_misuse",
+  "first_evidence_event_time": 1790455392.437,
+  "first_evidence_receipt": 1790455392.648,
+  "incident_id": "INC0122",
+  "last_evidence_receipt": 1790455493.065,
+  "principal": "user-08",
+  "scenario": "scope_probe",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00642",
+  "evidence_record_ids": [
+   "R005361",
+   "R005362",
+   "R005363",
+   "R005364",
+   "R005365",
+   "R005366",
+   "R005367",
+   "R005368",
+   "R005369"
+  ],
+  "family": "access_misuse",
+  "first_evidence_event_time": 1790738014.075,
+  "first_evidence_receipt": 1790738014.192,
+  "incident_id": "INC0123",
+  "last_evidence_receipt": 1790738154.234,
+  "principal": "svc-01",
+  "scenario": "scope_probe",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00648",
+  "evidence_record_ids": [
+   "R005401",
+   "R005402",
+   "R005403",
+   "R005404",
+   "R005407",
+   "R005408"
+  ],
+  "family": "multi_stage",
+  "first_evidence_event_time": 1790809613.872,
+  "first_evidence_receipt": 1790809614.351,
+  "incident_id": "INC0124",
+  "last_evidence_receipt": 1790809732.045,
+  "principal": "svc-09",
+  "scenario": "credential_misuse_chain",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00650",
+  "evidence_record_ids": [
+   "R005416",
+   "R005417",
+   "R005418"
+  ],
+  "family": "lateral_movement",
+  "first_evidence_event_time": 1790627066.929,
+  "first_evidence_receipt": 1790627067.151,
+  "incident_id": "INC0125",
+  "last_evidence_receipt": 1790627096.088,
+  "principal": "user-05",
+  "scenario": "lateral_movement",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00660",
+  "evidence_record_ids": [
+   "R005474",
+   "R005477"
+  ],
+  "family": "multi_stage",
+  "first_evidence_event_time": 1791042555.633,
+  "first_evidence_receipt": 1791042555.915,
+  "incident_id": "INC0126",
+  "last_evidence_receipt": 1791042588.015,
+  "principal": "svc-16",
+  "scenario": "credential_misuse_chain",
+  "stealth": true,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00667",
+  "evidence_record_ids": [
+   "R005514",
+   "R005515",
+   "R005516"
+  ],
+  "family": "tenant_boundary",
+  "first_evidence_event_time": 1790406556.722,
+  "first_evidence_receipt": 1790406556.861,
+  "incident_id": "INC0127",
+  "last_evidence_receipt": 1790406587.083,
+  "principal": "user-11",
+  "scenario": "cross_tenant_attempt",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00668",
+  "evidence_record_ids": [
+   "R005517",
+   "R005518"
+  ],
+  "family": "tenant_boundary",
+  "first_evidence_event_time": 1790026334.328,
+  "first_evidence_receipt": 1790026334.545,
+  "incident_id": "INC0128",
+  "last_evidence_receipt": 1790026349.615,
+  "principal": "svc-19",
+  "scenario": "cross_tenant_attempt",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00671",
+  "evidence_record_ids": [
+   "R005532",
+   "R005533",
+   "R005534"
+  ],
+  "family": "message_integrity",
+  "first_evidence_event_time": 1790010414.252,
+  "first_evidence_receipt": 1790010414.525,
+  "incident_id": "INC0129",
+  "last_evidence_receipt": 1790010489.399,
+  "principal": "user-12",
+  "scenario": "replay_injection",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00679",
+  "evidence_record_ids": [
+   "R005575",
+   "R005576",
+   "R005577",
+   "R005580",
+   "R005581",
+   "R005582"
+  ],
+  "family": "multi_stage",
+  "first_evidence_event_time": 1790767225.368,
+  "first_evidence_receipt": 1790767225.51,
+  "incident_id": "INC0130",
+  "last_evidence_receipt": 1790767331.748,
+  "principal": "svc-08",
+  "scenario": "credential_misuse_chain",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00683",
+  "evidence_record_ids": [
+   "R005601",
+   "R005602",
+   "R005605",
+   "R005606",
+   "R005607"
+  ],
+  "family": "multi_stage",
+  "first_evidence_event_time": 1790975938.092,
+  "first_evidence_receipt": 1790975938.384,
+  "incident_id": "INC0131",
+  "last_evidence_receipt": 1790976032.381,
+  "principal": "svc-03",
+  "scenario": "credential_misuse_chain",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00684",
+  "evidence_record_ids": [
+   "R005608",
+   "R005609",
+   "R005612",
+   "R005613"
+  ],
+  "family": "multi_stage",
+  "first_evidence_event_time": 1790347339.085,
+  "first_evidence_receipt": 1790347339.338,
+  "incident_id": "INC0132",
+  "last_evidence_receipt": 1790347433.359,
+  "principal": "user-14",
+  "scenario": "credential_misuse_chain",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00685",
+  "evidence_record_ids": [
+   "R005615",
+   "R005616"
+  ],
+  "family": "lateral_movement",
+  "first_evidence_event_time": 1791094655.478,
+  "first_evidence_receipt": 1791094655.697,
+  "incident_id": "INC0133",
+  "last_evidence_receipt": 1791094673.27,
+  "principal": "svc-19",
+  "scenario": "lateral_movement",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00691",
+  "evidence_record_ids": [
+   "R005648",
+   "R005649",
+   "R005650",
+   "R005651",
+   "R005654",
+   "R005655"
+  ],
+  "family": "multi_stage",
+  "first_evidence_event_time": 1790350056.713,
+  "first_evidence_receipt": 1790350056.864,
+  "incident_id": "INC0134",
+  "last_evidence_receipt": 1790350174.999,
+  "principal": "svc-16",
+  "scenario": "credential_misuse_chain",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00696",
+  "evidence_record_ids": [
+   "R005682",
+   "R005683"
+  ],
+  "family": "message_integrity",
+  "first_evidence_event_time": 1790656044.664,
+  "first_evidence_receipt": 1790656044.855,
+  "incident_id": "INC0135",
+  "last_evidence_receipt": 1790656133.143,
+  "principal": "user-15",
+  "scenario": "replay_injection",
+  "stealth": true,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00699",
+  "evidence_record_ids": [
+   "R005696",
+   "R005697",
+   "R005698"
+  ],
+  "family": "tenant_boundary",
+  "first_evidence_event_time": 1790849835.818,
+  "first_evidence_receipt": 1790849836.216,
+  "incident_id": "INC0136",
+  "last_evidence_receipt": 1790849865.905,
+  "principal": "user-03",
+  "scenario": "cross_tenant_attempt",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00719",
+  "evidence_record_ids": [
+   "R005815",
+   "R005816"
+  ],
+  "family": "tenant_boundary",
+  "first_evidence_event_time": 1790504832.163,
+  "first_evidence_receipt": 1790504832.427,
+  "incident_id": "INC0137",
+  "last_evidence_receipt": 1790504847.338,
+  "principal": "user-05",
+  "scenario": "cross_tenant_attempt",
+  "stealth": false,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00727",
+  "evidence_record_ids": [
+   "R005861",
+   "R005862"
+  ],
+  "family": "message_integrity",
+  "first_evidence_event_time": 1790812366.631,
+  "first_evidence_receipt": 1790812366.943,
+  "incident_id": "INC0138",
+  "last_evidence_receipt": 1790812402.496,
+  "principal": "svc-12",
+  "scenario": "replay_injection",
+  "stealth": false,
+  "tenant": "tenant-b"
+ },
+ {
+  "episode_id": "E00728",
+  "evidence_record_ids": [
+   "R005864",
+   "R005865"
+  ],
+  "family": "message_integrity",
+  "first_evidence_event_time": 1790468820.487,
+  "first_evidence_receipt": 1790468820.67,
+  "incident_id": "INC0139",
+  "last_evidence_receipt": 1790468842.249,
+  "principal": "user-13",
+  "scenario": "replay_injection",
+  "stealth": true,
+  "tenant": "tenant-a"
+ },
+ {
+  "episode_id": "E00740",
+  "evidence_record_ids": [
+   "R005986"
+  ],
+  "family": "tenant_boundary",
+  "first_evidence_event_time": 1790650253.019,
+  "first_evidence_receipt": 1790650253.356,
+  "incident_id": "INC0140",
+  "last_evidence_receipt": 1790650253.356,
+  "principal": "svc-21",
+  "scenario": "cross_tenant_attempt",
+  "stealth": false,
+  "tenant": "tenant-b"
+ }
+]

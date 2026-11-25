@@ -1,0 +1,22 @@
+# Values REPORTED BY THE PAPER. Only page-cited values belong here.
+# Status of the full text at build time: NOT ACCESSIBLE (IEEE Xplore returned a sign-in page).
+paper:
+  title: Secure Event-Driven Enterprise Integration an Intelligent Architecture for API Orchestration, Real-Time Messaging, and Adaptive Threat Detection
+  authors_in_order: [Kalyan Kumar Duggineni, Partha Chakraborty, Raja Velu, Mallellu Sai Prashanth, Rubasri Rajendran, Bharath Kumar Garimalla]
+  venue: 2026 10th International Conference on I-SMAC (IoT in Social, Mobile, Analytics and Cloud), Kirtipur, Nepal, 16-18 Sep 2026
+  pages: 2064-2072
+  doi: 10.1109/I-SMAC70384.2026.11747907
+  metadata_verified_via: Crossref (2026-11-25)
+reported_numeric_results: []   # nothing verified
+fields:
+  - {quantity: detection accuracy / precision / recall / F1, value: unverified, unit: null, denominator: null, source: null}
+  - {quantity: false-positive rate, value: unverified, unit: null, denominator: null, source: null}
+  - {quantity: API latency, value: unverified, unit: ms, denominator: null, source: null}
+  - {quantity: throughput, value: unverified, unit: events/s, denominator: null, source: null}
+  - {quantity: response time, value: unverified, unit: null, denominator: null, source: null}
+  - {quantity: dataset and sample counts, value: unverified, unit: null, denominator: null, source: null}
+design_objectives_from_supplied_abstract_excerpt:   # intended outcomes, NOT measured improvements
+  - secure API orchestration combined with real-time event messaging
+  - continuous behavioral monitoring, intelligent threat detection, contextual risk assessment, adaptive security response
+  - threats addressed: unauthorized API access, credential misuse, event injection, replay attacks, abnormal service interactions, multi-stage threats
+code_availability: unverified

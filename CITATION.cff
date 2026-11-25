@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this companion software, please cite it and the paper it accompanies."
+title: "SEDEI companion: secure event-driven enterprise integration (research companion implementation)"
+type: software
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/parthachk64-cyber/sedei-enterprise-integration"
+authors:
+  - family-names: Chakraborty
+    given-names: Partha
+abstract: >-
+  Companion implementation of a secure event-driven enterprise integration architecture. It is not the original
+  authors' code and does not reproduce the paper's experiments; see docs/paper-map.md.
+preferred-citation:
+  type: conference-paper
+  title: "Secure Event-Driven Enterprise Integration an Intelligent Architecture for API Orchestration, Real-Time Messaging, and Adaptive Threat Detection"
+  authors:
+    - {family-names: Duggineni, given-names: Kalyan Kumar}
+    - {family-names: Chakraborty, given-names: Partha}
+    - {family-names: Velu, given-names: Raja}
+    - {family-names: Prashanth, given-names: Mallellu Sai}
+    - {family-names: Rajendran, given-names: Rubasri}
+    - {family-names: Garimalla, given-names: Bharath Kumar}
+  collection-title: "2026 10th International Conference on I-SMAC (IoT in Social, Mobile, Analytics and Cloud) (I-SMAC)"
+  conference:
+    name: "2026 10th International Conference on I-SMAC"
+    location: "Kirtipur, Nepal"
+    date-start: 2026-09-16
+    date-end: 2026-09-18
+  start: 2064
+  end: 2072
+  year: 2026
+  publisher:
+    name: IEEE
+  doi: 10.1109/I-SMAC70384.2026.11747907

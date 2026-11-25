@@ -1,0 +1,28 @@
+# Origin: COMPANION DESIGN CHOICE (the paper's policy language is not available to this repo).
+version: "rp-1.0.0"
+routes:
+  "POST /v1/orders":
+    scope: "orders:create"
+    workflow: "order_fulfillment"
+workflow:
+  initial: RECEIVED
+  transitions:            # allowed state transitions (enforced in orchestration.py)
+    RECEIVED: [RESERVED]
+    RESERVED: [DISPATCH_AUTHORIZED]
+    DISPATCH_AUTHORIZED: []
+  terminal: [DISPATCH_AUTHORIZED]
+required_telemetry_stages: [gateway_decision, service_call, event_delivery]
+# Trusted service graph: only these (source -> destination) calls are expected.
+service_graph:
+  - [gateway, orchestrator]
+  - [orchestrator, inventory-svc]
+  - [orchestrator, dispatch-svc]
+  - [dispatch-svc, billing-svc]
+service_criticality:      # 1.0 = ordinary, up to 1.25 = business critical
+  gateway: 1.10
+  orchestrator: 1.10
+  inventory-svc: 1.00
+  dispatch-svc: 1.15
+  billing-svc: 1.25
+  admin-svc: 1.25
+  identity-svc: 1.25
