@@ -34,8 +34,8 @@ SEDEI walkthrough (three contrasting local traces)
 2_ordinary_redelivery_exactly_once     first_evidence=1790000000.000  alert=-  decision=-  committed=-
    checks: {"crash_between_processing_and_ack": true, "fulfillment_once": true, "identity_active": true,
             "inventory_delivery_attempts": 2, "no_alert": true, "workflow_completed": true, ...}
-3_incident_fixture_quarantine          first_evidence=<fixture t0>  alert=1791162269.673  decision=1791162269.673  committed=1791162269.673
-                                       (monotonic wall ms: detect=66.57 decide=0.03 commit=1.24)
+3_incident_fixture_quarantine          first_evidence=1791162269.673  alert=1791162269.673  decision=1791162269.673  committed=1791162269.673
+                                       (monotonic wall ms: detect=31.71 decide=0.03 commit=2.48)
    checks: {"no_second_action": true, "other_tenant_untouched": true, "other_tenant_same_event_id_state": "acked",
             "victim_event_state": "quarantined", "reprocess_reported_deduplicated": true, ...}
 
@@ -107,8 +107,9 @@ and SHA-256, git commit, platform, clock conventions.
 * Developed and tested on **Python 3.10.11, Windows 11**; clean-venv install resolved numpy 2.2.6, scikit-learn 1.7.2,
   pydantic 2.14.4, fastapi 0.162.5. The brief suggested Python 3.11; `.github/workflows/ci.yml` runs 3.10/3.11/3.12 with
   read-only permissions, but **CI has not yet run** (the repository was not pushed from the build environment).
-* `python -m pytest --cov=sedei`: all tests pass, **94 % coverage** of `src/sedei` (measured; per-module in the run log).
-  Weakest modules: `cli.py` 69 % (interactive `serve`, subcommand wrappers), `report.py` 78 %.
+* `python -m pytest --cov=sedei` in a clean venv: **84 passed, 0 failed, 94 % line coverage** of `src/sedei`
+  (2,077 statements, 118 missed). Weakest: `cli.py` 69 % (interactive `serve`, thin wrappers), `report.py` 78 %.
+  `ruff check` is clean. `sedei reproduce` exited 0; its manifests record commit `a2285e1`.
 * Measured results are on **synthetic data only** and are summarised, with their limits, in `docs/results.md`.
   Not evidence of real-world detection performance, enterprise-scale throughput, or any claim made by the paper.
 

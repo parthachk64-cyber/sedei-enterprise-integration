@@ -1,0 +1,60 @@
+{
+ "clock_conventions": {
+  "detection_latency": "receipt_time(first qualifying alert) - receipt_time(first evidence), simulated",
+  "event_time_receipt_time": "synthetic/producer epoch seconds; simulated, never compared to wall time",
+  "processing_time": "time.perf_counter() monotonic, reported in ms, only for benchmark/replay timing"
+ },
+ "config_hash": "8a9c6ff77668d25092f011cfe4ae48d08b3448d0a271baec527289a431e135a2",
+ "config_sha256": {
+  "detection.yaml": "76b949077583d3092112afe9e609bc83f5c0940e1e31ace6db1cbea6e2694dd2",
+  "identities.yaml": "7bdf632183fc1cc4b7b18d7fe79029940aa1a3c977e455e313f34be5249a4609",
+  "routing_policy.yaml": "d4cba758692ac07eac87442715671cc7d035303c0d278193808af1e270d99740"
+ },
+ "dataset": {
+  "dir": "data",
+  "sha256": {
+   "episodes.jsonl": "eb1ab81dce34574e221418b7a0543fa18a1ed9af47f8fdfd849593cdf3be6e91",
+   "incidents.json": "971fc82dd06303712a6e3f91927f7a9de109a7050eb17719848aa0e680c57557",
+   "labels.jsonl": "795f684fa0f4eba9fb8347610e354f785e812ca5f5e597a6381a653b6e9304fd",
+   "telemetry.jsonl": "c00cb09d619c7eebae468cd736db6f4d52f347ce39feb14725f6b7afc12171d0"
+  }
+ },
+ "feature_names": [
+  "n_records",
+  "n_decisions",
+  "n_deny",
+  "deny_ratio",
+  "n_denied_routes",
+  "n_scope_denies",
+  "n_tenant_mismatch",
+  "n_security_dup",
+  "n_benign_redelivery",
+  "n_unexpected_edges",
+  "n_distinct_services",
+  "rate_per_min",
+  "late_ratio",
+  "cur_is_deny",
+  "cur_is_security_dup",
+  "cur_is_unexpected_edge",
+  "privilege_elevated"
+ ],
+ "git_commit": "a2285e14ed21027acb80c341d550c0402237e3e6",
+ "machine": "AMD64",
+ "model_sha256": "6ad456a4dd729fec76f8da4c930f24ef7f0ff9aa6b1d8d447accfaaee0a20402",
+ "model_version": "if-fv1-s42",
+ "origin": {
+  "configuration": "companion_design_choice",
+  "published_specification": "unverified (full text not accessible to the build)",
+  "values": "measured_on_synthetic_dataset"
+ },
+ "packages": {
+  "fastapi": "0.162.5",
+  "numpy": "2.2.6",
+  "pydantic": "2.14.4",
+  "python": "3.10.11",
+  "scikit-learn": "1.7.2"
+ },
+ "platform": "Windows-10-10.0.26300-SP0",
+ "sedei_version": "0.1.0",
+ "seed": 42
+}

@@ -1,0 +1,116 @@
+{
+ "action": {
+  "action_id": "act-d4c2a43c06fc0a02",
+  "action_type": "event_quarantine",
+  "committed_sim": 1791162269.673,
+  "expires_at": 1791165869.673,
+  "status": "committed",
+  "target_id": "ev-E00085"
+ },
+ "assertions": {
+  "actions_after_reprocess": 1,
+  "actions_before_reprocess": 1,
+  "audit_rows_after": 1,
+  "audit_rows_before": 1,
+  "no_second_action": true,
+  "other_tenant_same_event_id_state": "acked",
+  "other_tenant_untouched": true,
+  "other_tenant_workflow_state": "DISPATCH_AUTHORIZED",
+  "reprocess_reported_deduplicated": true,
+  "victim_event_state": "quarantined"
+ },
+ "audit": [
+  {
+   "evidence": [
+    "R000619"
+   ],
+   "kind": "action_committed",
+   "policy_version": "resp-1.0.0",
+   "scope": "event:ev-E00085"
+  }
+ ],
+ "audit_chain_valid": true,
+ "decision": {
+  "action": "event_quarantine",
+  "policy": "contextual",
+  "reason": "inconsistent replayed event",
+  "target": "event:ev-E00085"
+ },
+ "episode_timeline": [
+  {
+   "detail": "ev-E00085",
+   "is_evidence": false,
+   "kind": "event_delivery",
+   "receipt_time": 1791162214.964,
+   "record_id": "R000617"
+  },
+  {
+   "detail": "ev-E00085",
+   "is_evidence": true,
+   "kind": "event_delivery",
+   "receipt_time": 1791162269.673,
+   "record_id": "R000619"
+  },
+  {
+   "detail": "ev-E00085",
+   "is_evidence": true,
+   "kind": "event_delivery",
+   "receipt_time": 1791162293.236,
+   "record_id": "R000618"
+  },
+  {
+   "detail": "ev-E00085",
+   "is_evidence": true,
+   "kind": "event_delivery",
+   "receipt_time": 1791162323.714,
+   "record_id": "R000620"
+  }
+ ],
+ "evidence_ids": [
+  "R000619"
+ ],
+ "fixture_note": "pre-authored telemetry replayed from data/; event ids re-keyed to the live pending event",
+ "incident": {
+  "evidence_record_ids": [
+   "R000618",
+   "R000619",
+   "R000620"
+  ],
+  "family": "message_integrity",
+  "incident_id": "INC0015",
+  "principal": "svc-06",
+  "scenario": "replay_injection",
+  "tenant": "tenant-a"
+ },
+ "reason_codes": [
+  "REPLAY_INCONSISTENT"
+ ],
+ "risk": 0.498099334685859,
+ "rule_findings": [
+  {
+   "evidence_ids": [
+    "R000619"
+   ],
+   "feature_version": "fv1",
+   "reason_codes": [
+    "REPLAY_INCONSISTENT"
+   ],
+   "rule_id": "R3_INCONSISTENT_REPLAY",
+   "severity": 0.8,
+   "timestamp": 1791162269.673
+  }
+ ],
+ "scenario": "3_incident_fixture_quarantine",
+ "timeline": {
+  "alert_record_id": "R000619",
+  "alert_sim": 1791162269.673,
+  "clock_note": "sim = producer/receipt clock of the replayed data; ms fields = monotonic wall time",
+  "commit_ms": 2.4817999992592377,
+  "committed_sim": 1791162269.673,
+  "decide_ms": 0.03270000070187962,
+  "detect_ms": 31.705699999292847,
+  "first_eligible_evidence_sim": 1791162269.673,
+  "incident_id": "INC0015",
+  "policy_decision_sim": 1791162269.673
+ }
+}

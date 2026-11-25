@@ -1,0 +1,8 @@
+{
+ "selected_on": "validation split, max F1, smallest maximiser",
+ "thresholds": {
+  "rules_only": 0.6,
+  "anomaly_only": 0.6098726762125846,
+  "hybrid": 0.44999999999999996
+ }
+}

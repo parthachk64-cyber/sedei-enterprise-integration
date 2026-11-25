@@ -1,0 +1,937 @@
+{
+ "event_classification_holdout": {
+  "anomaly_only": {
+   "f1": null,
+   "false_positive_rate": 0.0,
+   "fn": 69,
+   "fp": 0,
+   "fpr_denominator_negatives": 30,
+   "n": 99,
+   "positives": 69,
+   "pr_auc": 0.5665235358757755,
+   "precision": null,
+   "predicted_positive": 0,
+   "recall": 0.0,
+   "threshold": 0.6098726762125846,
+   "tn": 30,
+   "tp": 0
+  },
+  "hybrid": {
+   "f1": 1.0,
+   "false_positive_rate": 0.0,
+   "fn": 0,
+   "fp": 0,
+   "fpr_denominator_negatives": 30,
+   "n": 99,
+   "positives": 69,
+   "pr_auc": 1.0,
+   "precision": 1.0,
+   "predicted_positive": 69,
+   "recall": 1.0,
+   "threshold": 0.44999999999999996,
+   "tn": 30,
+   "tp": 69
+  },
+  "rules_only": {
+   "f1": 1.0,
+   "false_positive_rate": 0.0,
+   "fn": 0,
+   "fp": 0,
+   "fpr_denominator_negatives": 30,
+   "n": 99,
+   "positives": 69,
+   "pr_auc": 1.0,
+   "precision": 1.0,
+   "predicted_positive": 69,
+   "recall": 1.0,
+   "threshold": 0.6,
+   "tn": 30,
+   "tp": 69
+  }
+ },
+ "event_classification_test": {
+  "anomaly_only": {
+   "f1": 0.7552447552447553,
+   "false_positive_rate": 0.02430939226519337,
+   "fn": 13,
+   "fp": 22,
+   "fpr_denominator_negatives": 905,
+   "n": 972,
+   "positives": 67,
+   "pr_auc": 0.7515553195787095,
+   "precision": 0.7105263157894737,
+   "predicted_positive": 76,
+   "recall": 0.8059701492537313,
+   "threshold": 0.6098726762125846,
+   "tn": 883,
+   "tp": 54
+  },
+  "hybrid": {
+   "f1": 0.8124999999999999,
+   "false_positive_rate": 0.009944751381215469,
+   "fn": 15,
+   "fp": 9,
+   "fpr_denominator_negatives": 905,
+   "n": 972,
+   "positives": 67,
+   "pr_auc": 0.8953647463747484,
+   "precision": 0.8524590163934426,
+   "predicted_positive": 61,
+   "recall": 0.7761194029850746,
+   "threshold": 0.44999999999999996,
+   "tn": 896,
+   "tp": 52
+  },
+  "rules_only": {
+   "f1": 0.7903225806451613,
+   "false_positive_rate": 0.008839779005524863,
+   "fn": 18,
+   "fp": 8,
+   "fpr_denominator_negatives": 905,
+   "n": 972,
+   "positives": 67,
+   "pr_auc": 0.7022747348916056,
+   "precision": 0.8596491228070176,
+   "predicted_positive": 57,
+   "recall": 0.7313432835820896,
+   "threshold": 0.6,
+   "tn": 897,
+   "tp": 49
+  }
+ },
+ "event_classification_val": {
+  "anomaly_only": {
+   "f1": 0.7883211678832117,
+   "false_positive_rate": 0.023255813953488372,
+   "fn": 6,
+   "fp": 23,
+   "fpr_denominator_negatives": 989,
+   "n": 1049,
+   "positives": 60,
+   "pr_auc": 0.8143141800330613,
+   "precision": 0.7012987012987013,
+   "predicted_positive": 77,
+   "recall": 0.9,
+   "threshold": 0.6098726762125846,
+   "tn": 966,
+   "tp": 54
+  },
+  "hybrid": {
+   "f1": 0.8760330578512396,
+   "false_positive_rate": 0.008088978766430738,
+   "fn": 7,
+   "fp": 8,
+   "fpr_denominator_negatives": 989,
+   "n": 1049,
+   "positives": 60,
+   "pr_auc": 0.9399213352147039,
+   "precision": 0.8688524590163934,
+   "predicted_positive": 61,
+   "recall": 0.8833333333333333,
+   "threshold": 0.44999999999999996,
+   "tn": 981,
+   "tp": 53
+  },
+  "rules_only": {
+   "f1": 0.8571428571428572,
+   "false_positive_rate": 0.008088978766430738,
+   "fn": 9,
+   "fp": 8,
+   "fpr_denominator_negatives": 989,
+   "n": 1049,
+   "positives": 60,
+   "pr_auc": 0.7947603905791365,
+   "precision": 0.864406779661017,
+   "predicted_positive": 59,
+   "recall": 0.85,
+   "threshold": 0.6,
+   "tn": 981,
+   "tp": 51
+  }
+ },
+ "incident_evaluation": {
+  "holdout": {
+   "anomaly_only": {
+    "alerts_total": 0,
+    "detected": 0,
+    "detected_ids": [],
+    "detection_latency_s_simulated_receipt_clock": [],
+    "detection_latency_summary": null,
+    "incident_recall": 0.0,
+    "incidents": 30,
+    "missed": 30,
+    "missed_incidents": [
+     {
+      "incident_id": "INC0002",
+      "scenario": "lateral_movement",
+      "stealth": false
+     },
+     {
+      "incident_id": "INC0003",
+      "scenario": "lateral_movement",
+      "stealth": false
+     },
+     {
+      "incident_id": "INC0018",
+      "scenario": "lateral_movement",
+      "stealth": false
+     },
+     {
+      "incident_id": "INC0020",
+      "scenario": "lateral_movement",
+      "stealth": false
+     },
+     {
+      "incident_id": "INC0029",
+      "scenario": "lateral_movement",
+      "stealth": false
+     },
+     {
+      "incident_id": "INC0039",
+      "scenario": "lateral_movement",
+      "stealth": false
+     },
+     {
+      "incident_id": "INC0042",
+      "scenario": "lateral_movement",
+      "stealth": false
+     },
+     {
+      "incident_id": "INC0045",
+      "scenario": "lateral_movement",
+      "stealth": true
+     },
+     {
+      "incident_id": "INC0046",
+      "scenario": "lateral_movement",
+      "stealth": false
+     },
+     {
+      "incident_id": "INC0047",
+      "scenario": "lateral_movement",
+      "stealth": false
+     },
+     {
+      "incident_id": "INC0048",
+      "scenario": "lateral_movement",
+      "stealth": false
+     },
+     {
+      "incident_id": "INC0056",
+      "scenario": "lateral_movement",
+      "stealth": true
+     },
+     {
+      "incident_id": "INC0058",
+      "scenario": "lateral_movement",
+      "stealth": false
+     },
+     {
+      "incident_id": "INC0062",
+      "scenario": "lateral_movement",
+      "stealth": false
+     },
+     {
+      "incident_id": "INC0063",
+      "scenario": "lateral_movement",
+      "stealth": true
+     },
+     {
+      "incident_id": "INC0064",
+      "scenario": "lateral_movement",
+      "stealth": true
+     },
+     {
+      "incident_id": "INC0070",
+      "scenario": "lateral_movement",
+      "stealth": false
+     },
+     {
+      "incident_id": "INC0071",
+      "scenario": "lateral_movement",
+      "stealth": false
+     },
+     {
+      "incident_id": "INC0072",
+      "scenario": "lateral_movement",
+      "stealth": false
+     },
+     {
+      "incident_id": "INC0081",
+      "scenario": "lateral_movement",
+      "stealth": true
+     },
+     {
+      "incident_id": "INC0082",
+      "scenario": "lateral_movement",
+      "stealth": false
+     },
+     {
+      "incident_id": "INC0086",
+      "scenario": "lateral_movement",
+      "stealth": true
+     },
+     {
+      "incident_id": "INC0098",
+      "scenario": "lateral_movement",
+      "stealth": false
+     },
+     {
+      "incident_id": "INC0100",
+      "scenario": "lateral_movement",
+      "stealth": false
+     },
+     {
+      "incident_id": "INC0102",
+      "scenario": "lateral_movement",
+      "stealth": false
+     },
+     {
+      "incident_id": "INC0109",
+      "scenario": "lateral_movement",
+      "stealth": false
+     },
+     {
+      "incident_id": "INC0111",
+      "scenario": "lateral_movement",
+      "stealth": false
+     },
+     {
+      "incident_id": "INC0116",
+      "scenario": "lateral_movement",
+      "stealth": false
+     },
+     {
+      "incident_id": "INC0125",
+      "scenario": "lateral_movement",
+      "stealth": false
+     },
+     {
+      "incident_id": "INC0133",
+      "scenario": "lateral_movement",
+      "stealth": false
+     }
+    ],
+    "spurious_alert_groups": 0,
+    "spurious_alert_records": 0
+   },
+   "hybrid": {
+    "alerts_total": 69,
+    "detected": 30,
+    "detected_ids": [
+     "INC0002",
+     "INC0003",
+     "INC0018",
+     "INC0020",
+     "INC0029",
+     "INC0039",
+     "INC0042",
+     "INC0045",
+     "INC0046",
+     "INC0047",
+     "INC0048",
+     "INC0056",
+     "INC0058",
+     "INC0062",
+     "INC0063",
+     "INC0064",
+     "INC0070",
+     "INC0071",
+     "INC0072",
+     "INC0081",
+     "INC0082",
+     "INC0086",
+     "INC0098",
+     "INC0100",
+     "INC0102",
+     "INC0109",
+     "INC0111",
+     "INC0116",
+     "INC0125",
+     "INC0133"
+    ],
+    "detection_latency_s_simulated_receipt_clock": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "detection_latency_summary": {
+     "max": 0.0,
+     "n": 30,
+     "p50": 0.0,
+     "p95": 0.0
+    },
+    "incident_recall": 1.0,
+    "incidents": 30,
+    "missed": 0,
+    "missed_incidents": [],
+    "spurious_alert_groups": 0,
+    "spurious_alert_records": 0
+   },
+   "rules_only": {
+    "alerts_total": 69,
+    "detected": 30,
+    "detected_ids": [
+     "INC0002",
+     "INC0003",
+     "INC0018",
+     "INC0020",
+     "INC0029",
+     "INC0039",
+     "INC0042",
+     "INC0045",
+     "INC0046",
+     "INC0047",
+     "INC0048",
+     "INC0056",
+     "INC0058",
+     "INC0062",
+     "INC0063",
+     "INC0064",
+     "INC0070",
+     "INC0071",
+     "INC0072",
+     "INC0081",
+     "INC0082",
+     "INC0086",
+     "INC0098",
+     "INC0100",
+     "INC0102",
+     "INC0109",
+     "INC0111",
+     "INC0116",
+     "INC0125",
+     "INC0133"
+    ],
+    "detection_latency_s_simulated_receipt_clock": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "detection_latency_summary": {
+     "max": 0.0,
+     "n": 30,
+     "p50": 0.0,
+     "p95": 0.0
+    },
+    "incident_recall": 1.0,
+    "incidents": 30,
+    "missed": 0,
+    "missed_incidents": [],
+    "spurious_alert_groups": 0,
+    "spurious_alert_records": 0
+   }
+  },
+  "test": {
+   "anomaly_only": {
+    "alerts_total": 76,
+    "detected": 16,
+    "detected_ids": [
+     "INC0016",
+     "INC0031",
+     "INC0041",
+     "INC0044",
+     "INC0052",
+     "INC0053",
+     "INC0054",
+     "INC0076",
+     "INC0080",
+     "INC0089",
+     "INC0090",
+     "INC0096",
+     "INC0106",
+     "INC0107",
+     "INC0126",
+     "INC0131"
+    ],
+    "detection_latency_s_simulated_receipt_clock": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "detection_latency_summary": {
+     "max": 0.0,
+     "n": 16,
+     "p50": 0.0,
+     "p95": 0.0
+    },
+    "incident_recall": 0.8,
+    "incidents": 20,
+    "missed": 4,
+    "missed_incidents": [
+     {
+      "incident_id": "INC0011",
+      "scenario": "replay_injection",
+      "stealth": true
+     },
+     {
+      "incident_id": "INC0015",
+      "scenario": "replay_injection",
+      "stealth": false
+     },
+     {
+      "incident_id": "INC0101",
+      "scenario": "replay_injection",
+      "stealth": false
+     },
+     {
+      "incident_id": "INC0121",
+      "scenario": "replay_injection",
+      "stealth": false
+     }
+    ],
+    "spurious_alert_groups": 10,
+    "spurious_alert_records": 14
+   },
+   "hybrid": {
+    "alerts_total": 61,
+    "detected": 17,
+    "detected_ids": [
+     "INC0011",
+     "INC0015",
+     "INC0016",
+     "INC0031",
+     "INC0041",
+     "INC0044",
+     "INC0052",
+     "INC0053",
+     "INC0089",
+     "INC0090",
+     "INC0096",
+     "INC0101",
+     "INC0106",
+     "INC0107",
+     "INC0121",
+     "INC0126",
+     "INC0131"
+    ],
+    "detection_latency_s_simulated_receipt_clock": [
+     112.05599999427795,
+     0.0,
+     12.154000043869019,
+     32.10199999809265,
+     14.76799988746643,
+     0.0,
+     0.0,
+     0.0,
+     31.884999990463257,
+     18.80900001525879,
+     12.108000040054321,
+     0.0,
+     11.865000009536743,
+     0.0,
+     0.0,
+     32.10000014305115,
+     0.0
+    ],
+    "detection_latency_summary": {
+     "max": 112.05599999427795,
+     "n": 17,
+     "p50": 11.865000009536743,
+     "p95": 48.09279999732966
+    },
+    "incident_recall": 0.85,
+    "incidents": 20,
+    "missed": 3,
+    "missed_incidents": [
+     {
+      "incident_id": "INC0054",
+      "scenario": "scope_probe",
+      "stealth": true
+     },
+     {
+      "incident_id": "INC0076",
+      "scenario": "scope_probe",
+      "stealth": true
+     },
+     {
+      "incident_id": "INC0080",
+      "scenario": "scope_probe",
+      "stealth": true
+     }
+    ],
+    "spurious_alert_groups": 1,
+    "spurious_alert_records": 1
+   },
+   "rules_only": {
+    "alerts_total": 57,
+    "detected": 16,
+    "detected_ids": [
+     "INC0011",
+     "INC0015",
+     "INC0016",
+     "INC0031",
+     "INC0041",
+     "INC0044",
+     "INC0053",
+     "INC0089",
+     "INC0090",
+     "INC0096",
+     "INC0101",
+     "INC0106",
+     "INC0107",
+     "INC0121",
+     "INC0126",
+     "INC0131"
+    ],
+    "detection_latency_s_simulated_receipt_clock": [
+     112.05599999427795,
+     0.0,
+     12.154000043869019,
+     32.10199999809265,
+     14.76799988746643,
+     0.0,
+     0.0,
+     31.884999990463257,
+     18.80900001525879,
+     12.108000040054321,
+     0.0,
+     11.865000009536743,
+     0.0,
+     0.0,
+     32.10000014305115,
+     12.179999828338623
+    ],
+    "detection_latency_summary": {
+     "max": 112.05599999427795,
+     "n": 16,
+     "p50": 12.13100004196167,
+     "p95": 52.09049999713898
+    },
+    "incident_recall": 0.8,
+    "incidents": 20,
+    "missed": 4,
+    "missed_incidents": [
+     {
+      "incident_id": "INC0052",
+      "scenario": "scope_probe",
+      "stealth": true
+     },
+     {
+      "incident_id": "INC0054",
+      "scenario": "scope_probe",
+      "stealth": true
+     },
+     {
+      "incident_id": "INC0076",
+      "scenario": "scope_probe",
+      "stealth": true
+     },
+     {
+      "incident_id": "INC0080",
+      "scenario": "scope_probe",
+      "stealth": true
+     }
+    ],
+    "spurious_alert_groups": 0,
+    "spurious_alert_records": 0
+   }
+  }
+ },
+ "label": "Synthetic companion evaluation",
+ "origin": {
+  "configuration": "companion_design_choice",
+  "published_specification": "unverified (full text not accessible to the build)",
+  "values": "measured_on_synthetic_dataset"
+ },
+ "positives_by_split": {
+  "holdout": 69,
+  "test": 67,
+  "train": 299,
+  "val": 60
+ },
+ "recall_by_family_test_and_holdout": {
+  "anomaly_only": {
+   "access_misuse": {
+    "detected_evidence_records": 23,
+    "evidence_records": 23,
+    "recall": 1.0
+   },
+   "lateral_movement": {
+    "detected_evidence_records": 0,
+    "evidence_records": 69,
+    "recall": 0.0
+   },
+   "message_integrity": {
+    "detected_evidence_records": 0,
+    "evidence_records": 10,
+    "recall": 0.0
+   },
+   "multi_stage": {
+    "detected_evidence_records": 25,
+    "evidence_records": 28,
+    "recall": 0.8928571428571429
+   },
+   "tenant_boundary": {
+    "detected_evidence_records": 6,
+    "evidence_records": 6,
+    "recall": 1.0
+   }
+  },
+  "hybrid": {
+   "access_misuse": {
+    "detected_evidence_records": 15,
+    "evidence_records": 23,
+    "recall": 0.6521739130434783
+   },
+   "lateral_movement": {
+    "detected_evidence_records": 69,
+    "evidence_records": 69,
+    "recall": 1.0
+   },
+   "message_integrity": {
+    "detected_evidence_records": 9,
+    "evidence_records": 10,
+    "recall": 0.9
+   },
+   "multi_stage": {
+    "detected_evidence_records": 22,
+    "evidence_records": 28,
+    "recall": 0.7857142857142857
+   },
+   "tenant_boundary": {
+    "detected_evidence_records": 6,
+    "evidence_records": 6,
+    "recall": 1.0
+   }
+  },
+  "rules_only": {
+   "access_misuse": {
+    "detected_evidence_records": 13,
+    "evidence_records": 23,
+    "recall": 0.5652173913043478
+   },
+   "lateral_movement": {
+    "detected_evidence_records": 69,
+    "evidence_records": 69,
+    "recall": 1.0
+   },
+   "message_integrity": {
+    "detected_evidence_records": 9,
+    "evidence_records": 10,
+    "recall": 0.9
+   },
+   "multi_stage": {
+    "detected_evidence_records": 21,
+    "evidence_records": 28,
+    "recall": 0.75
+   },
+   "tenant_boundary": {
+    "detected_evidence_records": 6,
+    "evidence_records": 6,
+    "recall": 1.0
+   }
+  }
+ },
+ "response_policy_comparison": {
+  "holdout": {
+   "contextual": {
+    "actions_by_type": {
+     "service_isolation": 33
+    },
+    "alert_groups_on_benign_episodes": 0,
+    "alert_groups_on_incident_episodes": 33,
+    "severe_actions_on_benign_groups": 0,
+    "severe_actions_on_incident_groups": 33
+   },
+   "note": "Collateral (severe action on a benign episode) and action mix only. There is no ground-truth 'correct action', so this does NOT establish that contextual response is more effective.",
+   "static": {
+    "actions_by_type": {
+     "auth_challenge": 33
+    },
+    "alert_groups_on_benign_episodes": 0,
+    "alert_groups_on_incident_episodes": 33,
+    "severe_actions_on_benign_groups": 0,
+    "severe_actions_on_incident_groups": 0
+   }
+  },
+  "test": {
+   "contextual": {
+    "actions_by_type": {
+     "access_block": 2,
+     "auth_challenge": 2,
+     "credential_revocation": 1,
+     "event_quarantine": 4,
+     "rate_limit": 3,
+     "service_isolation": 8
+    },
+    "alert_groups_on_benign_episodes": 1,
+    "alert_groups_on_incident_episodes": 19,
+    "severe_actions_on_benign_groups": 0,
+    "severe_actions_on_incident_groups": 11
+   },
+   "note": "Collateral (severe action on a benign episode) and action mix only. There is no ground-truth 'correct action', so this does NOT establish that contextual response is more effective.",
+   "static": {
+    "actions_by_type": {
+     "access_block": 3,
+     "auth_challenge": 6,
+     "credential_revocation": 1,
+     "event_quarantine": 2,
+     "rate_limit": 8
+    },
+    "alert_groups_on_benign_episodes": 1,
+    "alert_groups_on_incident_episodes": 19,
+    "severe_actions_on_benign_groups": 0,
+    "severe_actions_on_incident_groups": 4
+   }
+  }
+ },
+ "run_id": "eval-c00cb09d-s42",
+ "seed_spread_test": {
+  "aggregate": {
+   "anomaly_f1": {
+    "max": 0.776978417266187,
+    "mean": 0.7621993833504626,
+    "min": 0.7285714285714286,
+    "sd": 0.01743426245318875
+   },
+   "anomaly_pr_auc": {
+    "max": 0.75845943453109,
+    "mean": 0.7526094389698821,
+    "min": 0.7416557084267462,
+    "sd": 0.006059471594872437
+   },
+   "hybrid_f1": {
+    "max": 0.8124999999999999,
+    "mean": 0.8124999999999998,
+    "min": 0.8124999999999999,
+    "sd": 1.1102230246251565e-16
+   },
+   "hybrid_pr_auc": {
+    "max": 0.8926935812541396,
+    "mean": 0.8916815360991228,
+    "min": 0.8902905567942766,
+    "sd": 0.0008509422128680156
+   }
+  },
+  "note": "Isolation-forest seed only; dataset and splits fixed. Not a significance test.",
+  "per_seed": [
+   {
+    "anomaly_f1": 0.7714285714285715,
+    "anomaly_pr_auc": 0.7579090571419078,
+    "hybrid_f1": 0.8124999999999999,
+    "hybrid_pr_auc": 0.8914630392861088,
+    "seed": 0
+   },
+   {
+    "anomaly_f1": 0.7625899280575541,
+    "anomaly_pr_auc": 0.7533096769555674,
+    "hybrid_f1": 0.8124999999999999,
+    "hybrid_pr_auc": 0.8924467554341841,
+    "seed": 1
+   },
+   {
+    "anomaly_f1": 0.7714285714285715,
+    "anomaly_pr_auc": 0.7517133177940984,
+    "hybrid_f1": 0.8124999999999999,
+    "hybrid_pr_auc": 0.8902905567942766,
+    "seed": 2
+   },
+   {
+    "anomaly_f1": 0.7285714285714286,
+    "anomaly_pr_auc": 0.7416557084267462,
+    "hybrid_f1": 0.8124999999999999,
+    "hybrid_pr_auc": 0.8915137477269053,
+    "seed": 3
+   },
+   {
+    "anomaly_f1": 0.776978417266187,
+    "anomaly_pr_auc": 0.75845943453109,
+    "hybrid_f1": 0.8124999999999999,
+    "hybrid_pr_auc": 0.8926935812541396,
+    "seed": 4
+   }
+  ],
+  "seeds": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ "split_sizes": {
+  "holdout": 99,
+  "test": 972,
+  "train": 3296,
+  "val": 1049
+ },
+ "visibility": {
+  "definition": "allow-decision workflows (non-incident episodes) whose correlation_id has every required stage kind in the telemetry received by end of data",
+  "eligible_workflows": 1188,
+  "fraction": 0.9856902356902357,
+  "fully_linked": 1171,
+  "required_stages": [
+   "event_delivery",
+   "gateway_decision",
+   "service_call"
+  ]
+ }
+}

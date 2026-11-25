@@ -1,0 +1,33 @@
+{
+  "baseline_ceiling": 0.6941182010925205,
+  "baseline_floor": 0.41588606353171514,
+  "ceiling_percentile": 99.5,
+  "feature_names": [
+    "n_records",
+    "n_decisions",
+    "n_deny",
+    "deny_ratio",
+    "n_denied_routes",
+    "n_scope_denies",
+    "n_tenant_mismatch",
+    "n_security_dup",
+    "n_benign_redelivery",
+    "n_unexpected_edges",
+    "n_distinct_services",
+    "rate_per_min",
+    "late_ratio",
+    "cur_is_deny",
+    "cur_is_security_dup",
+    "cur_is_unexpected_edge",
+    "privilege_elevated"
+  ],
+  "feature_version": "fv1",
+  "floor_percentile": 50,
+  "model_version": "if-fv1-s42",
+  "n_estimators": 200,
+  "n_train": 2936,
+  "orientation": "higher_is_more_anomalous",
+  "seed": 42,
+  "sha256": "6ad456a4dd729fec76f8da4c930f24ef7f0ff9aa6b1d8d447accfaaee0a20402",
+  "sklearn_version": "1.7.2"
+}

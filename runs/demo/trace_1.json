@@ -1,0 +1,209 @@
+{
+ "alerts": [],
+ "assertions": {
+  "all_stages_share_correlation_id": true,
+  "no_alert": true,
+  "stage_kinds": [
+   "event_delivery",
+   "gateway_decision",
+   "service_call"
+  ],
+  "workflow_completed": true
+ },
+ "deliveries": [
+  {
+   "attempts": 1,
+   "consumer": "dispatch",
+   "event_id": "ev-wf-d8c1695fd94794f4-inventoryreserved",
+   "state": "acked"
+  },
+  {
+   "attempts": 1,
+   "consumer": "inventory",
+   "event_id": "ev-wf-d8c1695fd94794f4-received",
+   "state": "acked"
+  }
+ ],
+ "gateway_result": {
+  "correlation_id": "corr-000001",
+  "created": true,
+  "decision": "allow",
+  "reason": "accepted",
+  "status": 202,
+  "workflow_id": "wf-d8c1695fd94794f4"
+ },
+ "reservations": 1,
+ "scenario": "1_authorized_order_completes",
+ "telemetry": [
+  {
+   "correlation_id": "corr-000001",
+   "decision": null,
+   "delivery_attempt": null,
+   "deny_reason": null,
+   "dest_service": "orchestrator",
+   "emitter": null,
+   "event_id": null,
+   "event_time": 1790000000.0,
+   "event_type": null,
+   "kind": "service_call",
+   "payload_sha256": null,
+   "principal": "svc-07",
+   "privilege": null,
+   "receipt_time": 1790000000.0,
+   "record_id": "tel-000002",
+   "route": null,
+   "source_service": "gateway",
+   "tenant": "tenant-a",
+   "transport_redelivery": null,
+   "workflow_id": "wf-d8c1695fd94794f4"
+  },
+  {
+   "correlation_id": "corr-000001",
+   "decision": "allow",
+   "delivery_attempt": null,
+   "deny_reason": null,
+   "dest_service": null,
+   "emitter": null,
+   "event_id": null,
+   "event_time": 1790000000.0,
+   "event_type": null,
+   "kind": "gateway_decision",
+   "payload_sha256": null,
+   "principal": "svc-07",
+   "privilege": "standard",
+   "receipt_time": 1790000000.0,
+   "record_id": "tel-000003",
+   "route": "POST /v1/orders",
+   "source_service": null,
+   "tenant": "tenant-a",
+   "transport_redelivery": null,
+   "workflow_id": "wf-d8c1695fd94794f4"
+  },
+  {
+   "correlation_id": "corr-000001",
+   "decision": null,
+   "delivery_attempt": 1,
+   "deny_reason": null,
+   "dest_service": null,
+   "emitter": "gateway",
+   "event_id": "ev-wf-d8c1695fd94794f4-received",
+   "event_time": 1790000000.0,
+   "event_type": "OrderReceived",
+   "kind": "event_delivery",
+   "payload_sha256": "13d805586769e7977e727830892bb7adf8f7784d83b824fa270a9aa2f8edda71",
+   "principal": "svc-07",
+   "privilege": null,
+   "receipt_time": 1790000001.0,
+   "record_id": "tel-000004",
+   "route": null,
+   "source_service": null,
+   "tenant": "tenant-a",
+   "transport_redelivery": false,
+   "workflow_id": "wf-d8c1695fd94794f4"
+  },
+  {
+   "correlation_id": "corr-000001",
+   "decision": null,
+   "delivery_attempt": null,
+   "deny_reason": null,
+   "dest_service": "inventory-svc",
+   "emitter": null,
+   "event_id": null,
+   "event_time": 1790000001.0,
+   "event_type": null,
+   "kind": "service_call",
+   "payload_sha256": null,
+   "principal": "svc-07",
+   "privilege": null,
+   "receipt_time": 1790000001.0,
+   "record_id": "tel-000005",
+   "route": null,
+   "source_service": "orchestrator",
+   "tenant": "tenant-a",
+   "transport_redelivery": null,
+   "workflow_id": "wf-d8c1695fd94794f4"
+  },
+  {
+   "correlation_id": "corr-000001",
+   "decision": null,
+   "delivery_attempt": 1,
+   "deny_reason": null,
+   "dest_service": null,
+   "emitter": "orchestrator",
+   "event_id": "ev-wf-d8c1695fd94794f4-inventoryreserved",
+   "event_time": 1790000001.0,
+   "event_type": "InventoryReserved",
+   "kind": "event_delivery",
+   "payload_sha256": "50c2a07c57270d8922dce37de2baceeec0d63d25596c6639d967c06d46391b5b",
+   "principal": "svc-07",
+   "privilege": null,
+   "receipt_time": 1790000001.0,
+   "record_id": "tel-000006",
+   "route": null,
+   "source_service": null,
+   "tenant": "tenant-a",
+   "transport_redelivery": false,
+   "workflow_id": "wf-d8c1695fd94794f4"
+  },
+  {
+   "correlation_id": "corr-000001",
+   "decision": null,
+   "delivery_attempt": null,
+   "deny_reason": null,
+   "dest_service": "dispatch-svc",
+   "emitter": null,
+   "event_id": null,
+   "event_time": 1790000001.0,
+   "event_type": null,
+   "kind": "service_call",
+   "payload_sha256": null,
+   "principal": "svc-07",
+   "privilege": null,
+   "receipt_time": 1790000001.0,
+   "record_id": "tel-000007",
+   "route": null,
+   "source_service": "orchestrator",
+   "tenant": "tenant-a",
+   "transport_redelivery": null,
+   "workflow_id": "wf-d8c1695fd94794f4"
+  }
+ ],
+ "timeline": {
+  "alert_sim": null,
+  "committed_sim": null,
+  "first_eligible_evidence_sim": 1790000000.0,
+  "note": "no alert, no action (authorized completion)",
+  "policy_decision_sim": null
+ },
+ "transitions": [
+  {
+   "at": 1790000000.0,
+   "event_id": null,
+   "from_state": null,
+   "policy_version": null,
+   "to_state": "RECEIVED"
+  },
+  {
+   "at": 1790000001.0,
+   "event_id": "ev-wf-d8c1695fd94794f4-received",
+   "from_state": "RECEIVED",
+   "policy_version": "rp-1.0.0",
+   "to_state": "RESERVED"
+  },
+  {
+   "at": 1790000001.0,
+   "event_id": "ev-wf-d8c1695fd94794f4-inventoryreserved",
+   "from_state": "RESERVED",
+   "policy_version": "rp-1.0.0",
+   "to_state": "DISPATCH_AUTHORIZED"
+  }
+ ],
+ "workflow": {
+  "correlation_id": "corr-000001",
+  "principal": "svc-07",
+  "state": "DISPATCH_AUTHORIZED",
+  "tenant": "tenant-a",
+  "version": 2,
+  "workflow_id": "wf-d8c1695fd94794f4"
+ }
+}
